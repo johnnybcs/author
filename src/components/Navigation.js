@@ -6,11 +6,11 @@ class Navigation extends React.Component {
 
     render() {
         return (
-            <div className="ui grid header">
+            <div className="ui grid navigation">
                 <div className="column" />
                 <div className="three wide column">
                     <NavLink to='/'>
-                        <div className="header-title">
+                        <div className="navigation-title">
                             Johnny Li
                         </div>
                     </NavLink>

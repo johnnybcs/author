@@ -1,24 +1,26 @@
 import React from 'react';
 import Typical from 'react-typical';
 
-import Header from './Header';
+import Navigation from './Navigation';
 
 import './style.css';
 
 const About = () => {
     return (
         <div>
-            <Header />
+            <Navigation />
             <div className="app">
+                <br />
                 <br />
                 <div className="ui card">
                     <div className="image">
                         <img src="headShot.jpg" alt='author' />
                     </div>
                     <div className="content">
-                        <div className="header">
+                        <div className="header-text">
                             Hi, I'm Johnny
                         </div>
+                        <br />
                         <div className="description">
                             I'm{' '}
                             <Typical
@@ -33,7 +35,7 @@ const About = () => {
                                 wrapper="b"
                             />
                         </div>
-                </div>
+                    </div>
                 </div>
             </div>
         </div>
