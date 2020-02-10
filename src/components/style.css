@@ -1,19 +1,18 @@
 @import "../../node_modules/react-image-gallery/styles/css/image-gallery.css";
 @import url('https://fonts.googleapis.com/css?family=Londrina+Sketch');
 
+.about-picture {
+    height: 30vmin;
+    border-radius: 10%;
+}
+
 .app {
     text-align: center;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: calc(10px + 2vim);
     background-color: #f0f0f0;
-}
-
-.app-logo {
-    height: 25vmin;
-    border-radius: 10%;
 }
 
 .background {
@@ -26,9 +25,8 @@
     margin-top: 0;
 }
 
-.centralize {
-    text-align: center;
-    align-items: center;
+.contact-title {
+    font-size: 10em;
 }
 
 .description {
@@ -40,29 +38,9 @@
     font-weight: bold;
 }
 
-.logo-title {
+.header-title {
     padding-top: 10px;
     font-family: 'Londrina Sketch';
     font-size: 60px;
     color: black;
-}
-
-.margin-horizontal {
-    padding-left:20px;
-    padding-right:20px;
-    background-color: #f0f0f0
-}
-
-.title {
-    font-size: 10em;
-    font-weight: bold;
-}
-
-.video-item {
-    display: flex !important;
-    cursor: pointer;
-}
-
-.video-item.item img {
-    max-width: 180px;
 }

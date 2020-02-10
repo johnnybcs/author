@@ -1,7 +1,6 @@
 import React from 'react';
 
-import Logo from './Logo';
-import Navigation from './Navigation';
+import Header from './Header';
 import Typical from 'react-typical';
 
 import {SpeechBubble} from 'react-kawaii';
@@ -36,26 +35,14 @@ class Contact extends React.Component {
     render() {
         return (
             <div>
-                <p />
-                <div className="row" style={{height: "65px"}}>
-                    <div className="ui grid">
-                        <div className="four wide column" />
-                        <div className="eight wide column centralize">
-                            <Logo />
-                        </div>
-                        <div className="two wide column" />
-                        <div className="two wide column" >
-                            <Navigation />
-                        </div>
-                    </div>
-                </div>
+                <Header />
                 <div className="app">
                     <br />
                     <div onClick={this.onClick} onMouseEnter={this.onMouseEnter} onMouseLeave={this.onMouseLeave}>
                         <SpeechBubble size={300} mood={this.state.mood} color="#83D1FB" text="Hello!" />
                     </div>
                     <br />
-                    <div className="title">
+                    <div className="contact-title">
                         <Typical
                             steps={[
                                 'Hello', 1000
