@@ -1,6 +1,12 @@
 @import "../../node_modules/react-image-gallery/styles/css/image-gallery.css";
 @import url('https://fonts.googleapis.com/css?family=Beth+Ellen');
 @import url('https://fonts.googleapis.com/css?family=Bebas+Neue');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+a {
+    color: #0000db;
+}
 
 .nav-link {
     font-family: 'Bebas Neue';
@@ -40,7 +46,14 @@ a.nav-link:hover {
 }
 
 .description {
-    font-size: 1.6em;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header-text {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
 }
 
 .label {
@@ -48,14 +61,14 @@ a.nav-link:hover {
     font-weight: bold;
 }
 
-.header {
+.navigation {
     height: 95px;
 }
 
-.header-title {
-    padding-top: 10px;
+.navigation-title {
+    padding-top: 15px;
     font-family: 'Beth Ellen';
-    font-size: 40px;
+    font-size: 35px;
     color: black;
 }
 

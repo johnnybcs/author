@@ -1,5 +1,5 @@
 import React from 'react';
-import Header from './Header';
+import Navigation from './Navigation';
 import ImageGallery from 'react-image-gallery';
 
 import './style.css';
@@ -24,7 +24,7 @@ class App extends React.Component {
     render() {
         return (
             <div>
-                <Header />
+                <Navigation />
                 <div className="background">
                     <ImageGallery items={images} />
                 </div>

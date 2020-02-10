@@ -1,9 +1,11 @@
 import React from 'react';
 
-import Header from './Header';
+import Navigation from './Navigation';
 import Typical from 'react-typical';
 
 import {SpeechBubble} from 'react-kawaii';
+
+import './style.css';
 
 const DEFAULT_MOOD = 'happy';
 
@@ -35,7 +37,7 @@ class Contact extends React.Component {
     render() {
         return (
             <div>
-                <Header />
+                <Navigation />
                 <div className="app background-contact">
                     <br />
                     <div onClick={this.onClick} onMouseEnter={this.onMouseEnter} onMouseLeave={this.onMouseLeave}>
@@ -55,8 +57,7 @@ class Contact extends React.Component {
                     <br />
                     <br />
                     <br />
-                    <h2>Questions? Drop me a line</h2>
-                        <a href = "mailto:johnny@alumni.ubc.ca">johnny@alumni.ubc.ca</a>
+                    <h1>Questions?{' '}<a href = "mailto:johnny@alumni.ubc.ca">Drop me a line</a></h1>
                 </div>
             </div>
         );
