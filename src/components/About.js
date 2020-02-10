@@ -9,7 +9,7 @@ const About = () => {
     return (
         <div>
             <Navigation />
-            <div className="app">
+            <div className="app background-about">
                 <br />
                 <br />
                 <div className="ui card">

@@ -27,8 +27,12 @@ a.nav-link:hover {
     background-color: #f0f0f0;
 }
 
-.background {
-    background-image: url("background-home.jpg");
+.background-home {
+    background-color: black;
+}
+
+.background-about {
+    background-image: url("background-about.jpg");
 }
 
 .background-contact {
@@ -63,6 +67,7 @@ a.nav-link:hover {
 
 .navigation {
     height: 95px;
+    text-align: center;
 }
 
 .navigation-title {
