@@ -6,16 +6,16 @@ import './style.css';
 
 const images = [
     {
-        original: 'favicon.ico',
-        thumbnail: 'favicon.ico'
+        original: 'headShot.jpg',
+        thumbnail: 'headShot.jpg'
       },
       {
-        original: 'favicon.ico',
-        thumbnail: 'favicon.ico'
+        original: 'brick.jpg',
+        thumbnail: 'brick.jpg'
       },
       {
-        original: 'favicon.ico',
-        thumbnail: 'favicon.ico'
+        original: 'twitter-logo.png',
+        thumbnail: 'twitter-logo.png'
       }
 ]
 
@@ -25,7 +25,7 @@ class App extends React.Component {
         return (
             <div>
                 <Navigation />
-                <div className="background">
+                <div className="background-home">
                     <ImageGallery items={images} />
                 </div>
             </div>
