@@ -10,19 +10,25 @@ class Navigation extends React.Component {
                 <div className="column" />
                 <div className="three wide column">
                     <NavLink to='/'>
-                        <div className="logo-title">
+                        <div className="header-title">
                             Johnny Li
                         </div>
                     </NavLink>
                 </div>
-                <div className="ten wide column" />
-                <div className="two wide column">
-                    <NavLink exact to='/about'>
-                        <i class="big info circle icon" />
-                    </NavLink>
-                    <NavLink exact to='/contact'>
-                        <i class="big address card icon" />
-                    </NavLink>
+                <div className="nine wide column" />
+                <div className="column">
+                    <div className="pad">
+                        <NavLink exact to='/about' className="nav-link" activeStyle={{textDecoration:"underline", color:"black"}}>
+                            About
+                        </NavLink>
+                    </div>
+                </div>
+                <div className="column">
+                    <div className="pad">
+                        <NavLink exact to='/contact' className="nav-link" activeStyle={{textDecoration:"underline", color:"black"}}>
+                            Contact
+                        </NavLink>
+                    </div>
                 </div>
                 <div className="column" />
             </div>

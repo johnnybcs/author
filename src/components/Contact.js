@@ -36,7 +36,7 @@ class Contact extends React.Component {
         return (
             <div>
                 <Header />
-                <div className="app">
+                <div className="app background-contact">
                     <br />
                     <div onClick={this.onClick} onMouseEnter={this.onMouseEnter} onMouseLeave={this.onMouseLeave}>
                         <SpeechBubble size={300} mood={this.state.mood} color="#83D1FB" text="Hello!" />
@@ -51,8 +51,6 @@ class Contact extends React.Component {
                             wrapper="b"
                         />
                     </div>
-                    <br />
-                    <br />
                     <br />
                     <br />
                     <br />
