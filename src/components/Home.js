@@ -4,20 +4,14 @@ import ImageGallery from 'react-image-gallery';
 
 import './style.css';
 
-const images = [
-    {
-        original: 'headShot.jpg',
-        thumbnail: 'headShot.jpg'
-      },
-      {
-        original: 'brick.jpg',
-        thumbnail: 'brick.jpg'
-      },
-      {
-        original: 'twitter-logo.png',
-        thumbnail: 'twitter-logo.png'
-      }
-]
+var images = [];
+
+for (var i = 0; i < 20; i++) {
+    var pagePath = './pages/p' + i.toString() + '.jpg';
+    var thumbnailPath = './thumbnails/p' + i.toString() + '.jpg';
+
+    images.push({ original: pagePath, thumbnail: thumbnailPath });
+}
 
 class App extends React.Component {
 
@@ -26,7 +20,6 @@ class App extends React.Component {
             <div>
                 <Navigation />
                 <div className="background-home">
-                    <br />
                     <br />
                     <ImageGallery items={images} />
                 </div>

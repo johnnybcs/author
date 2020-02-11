@@ -11,7 +11,7 @@ const DEFAULT_MOOD = 'happy';
 
 class Contact extends React.Component {
     state = {
-        mood: ''
+        mood: DEFAULT_MOOD
     };
 
     componentDidMount() {
