@@ -26,6 +26,8 @@ class App extends React.Component {
             <div>
                 <Navigation />
                 <div className="background-home">
+                    <br />
+                    <br />
                     <ImageGallery items={images} />
                 </div>
             </div>
