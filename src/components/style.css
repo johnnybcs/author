@@ -6,6 +6,8 @@
 
 a {
     color: #00006f;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .nav-link {
