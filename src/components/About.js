@@ -27,9 +27,7 @@ const About = () => {
                                 steps={[
                                     'an author ✍️', 1500,
                                     'a developer ☕', 1500,
-                                    'a student 📚', 1500,
-                                    'a husband 🔗', 1500,
-                                    'a father 👶', 1500
+                                    'a student 📚', 1500
                                 ]} 
                                 loop={Infinity}
                                 wrapper="b"

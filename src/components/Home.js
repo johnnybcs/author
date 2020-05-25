@@ -19,9 +19,33 @@ class App extends React.Component {
         return (
             <div>
                 <Navigation />
-                <div className="background-home">
-                    <br />
-                    <ImageGallery items={images} />
+                <div class="ui grid">
+                    <div class="row">
+                        <br />
+                        <div class="ui container raised segment">
+                            <a class="ui orange ribbon huge label" target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/dp/B07D4LX1LY">101 Animals</a>
+                            <ImageGallery items={images} />
+                        </div>
+                    </div>
+                    <div class="row">
+                    </div>
+                    <div class="row">
+                        <div class="ui container raised segment">
+                            <a class="ui red ribbon huge label" target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/dp/B07CJ29VPJ">World Breaker</a>
+                            <div class="ui two column stackable center aligned grid">
+                                <div class="ui vertical divider">
+                                </div>
+                                <div class="middle aligned row">
+                                    <div class="column">
+                                        <img class="ui huge image" src="WorldBreakerCover.png" alt="cover" />
+                                    </div>
+                                    <div class="column">
+                                        <img class="ui huge image" src="WorldBreakerBack.png" alt="cover" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         );
