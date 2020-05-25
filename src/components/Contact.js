@@ -57,7 +57,10 @@ class Contact extends React.Component {
                     <br />
                     <br />
                     <h1>Questions? Drop me a line</h1>
-                    <a href = "mailto:johnny@alumni.ubc.ca">johnny@alumni.ubc.ca</a>
+                    <a class="ui huge label" href = "mailto:johnny@alumni.ubc.ca">
+                        <i class="large mail icon" />
+                        johnny@alumni.ubc.ca
+                    </a>
                 </div>
             </div>
         );
