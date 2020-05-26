@@ -15,8 +15,7 @@ class Footer extends React.Component {
                     <i class="copyright outline icon"></i>Johnny Li
                 </div>
                 <br />
-                <br />
-                
+                <br />        
             </div>
         );
     }
