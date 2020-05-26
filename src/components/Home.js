@@ -61,15 +61,6 @@ class App extends React.Component {
                             <img class="ui fluid image" src="thingsThatMoveCover.jpg" alt="cover" />
                         </div>
                     </div>
-                    <div class="centered row">
-                    <div class="ui text menu">
-                        <h3 class="item" style={{color:"black", fontWeight:"bold"}}>BOOKS</h3>
-                        <a class="item" href="#101Animals">101 Animals</a>
-                        <a class="item" href="#worldBreaker">World Breaker</a>
-                        <a class="item" href="#namesOfFruitsAndVegetables">Names of Fruits and Vegetables</a>
-                        <a class="item" href="#myFirstBookOfThingsThatMove">My First Book of Things that Move</a>
-                    </div>
-                    </div>
                 </div>
                 <Footer />
             </div>
