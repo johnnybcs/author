@@ -7,35 +7,29 @@ class Navigation extends React.Component {
     render() {
         return (
             <div>
-                <div className="navigation-title">Johnny Li</div>
-                <div className="ui three column grid navigation">
-                    <div className="column" />
-                    <div className="ui five column grid">
-                        <div className="column" />
-                        <div className="column">
-                            <div className="pad">
+                <div class="ui centered grid">
+                    <div class="row">
+                        <div className="navigation-title" id="top">Johnny Li</div>
+                    </div>
+                    <div class="row">
+                        <div class="ui text menu">
+                            <div class="item">
                                 <NavLink exact to='/' className="nav-link" activeStyle={{textDecoration:"underline", color:"black"}}>
                                     Books
                                 </NavLink>
                             </div>
-                        </div>
-                        <div className="column">
-                            <div className="pad">
+                            <div class="item">
                                 <NavLink exact to='/about' className="nav-link" activeStyle={{textDecoration:"underline", color:"black"}}>
-                                    About
+                                    Biography
                                 </NavLink>
                             </div>
-                        </div>
-                        <div className="column">
-                            <div className="pad">
+                            <div class="item">
                                 <NavLink exact to='/contact' className="nav-link" activeStyle={{textDecoration:"underline", color:"black"}}>
                                     Contact
                                 </NavLink>
                             </div>
                         </div>
-                        <div className="column" />
                     </div>
-                    <div className="column" />
                 </div>
             </div>
         );

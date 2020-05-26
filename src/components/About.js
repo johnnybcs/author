@@ -1,7 +1,7 @@
 import React from 'react';
 import Typical from 'react-typical';
-
 import Navigation from './Navigation';
+import Footer from './Footer';
 
 import './style.css';
 
@@ -36,6 +36,7 @@ const About = () => {
                     </div>
                 </div>
             </div>
+            <Footer />
         </div>
     );
 }
