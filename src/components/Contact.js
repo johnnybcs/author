@@ -35,7 +35,7 @@ class Contact extends React.Component {
     }
 
     submit = () => {
-        document.getElementById("formTitle").innerHTML = "Submitted. Thanks for your interest!";
+        document.getElementById("formTitle").innerHTML = "Submitted! Thanks for your interest.";
         document.getElementById("form").reset();
     }
 
