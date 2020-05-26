@@ -16,10 +16,6 @@ const About = () => {
                 <br />
                 <br />
                 <br />
-                <br />
-                <br />
-                <br />
-                <br />
                 <div class="ui move up reveal">
                     <div class="visible content">
                         <img class="ui image" src="curtains.jpg" alt="curtains" />
