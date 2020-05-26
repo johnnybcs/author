@@ -34,6 +34,11 @@ class Contact extends React.Component {
         this.setState({mood: DEFAULT_MOOD});
     }
 
+    submit = () => {
+        document.getElementById("formTitle").innerHTML = "Submitted. Thanks for your interest!";
+        document.getElementById("form").reset();
+    }
+
     render() {
         return (
             <div>
@@ -56,11 +61,24 @@ class Contact extends React.Component {
                     <br />
                     <br />
                     <br />
-                    <h1>Questions? Drop me a line</h1>
-                    <a class="ui huge label" href = "mailto:johnny@alumni.ubc.ca">
-                        <i class="large mail icon" />
-                        johnny@alumni.ubc.ca
-                    </a>
+                    <div class="ui segment container" style={{textAlign: "left", width: "370px", paddingTop: "3em"}}>
+                    <label id="formTitle" class="ui top attached green huge label">Questions? Drop me a line</label>
+                        <form id="form" class="ui form" style={{fontSize: "17px"}} action="mailto:johnny@ualberta.ca" method="post">
+                            <div class="field">
+                                <label>Name</label>
+                                <input type="text" name="name" placeholder="Name" />
+                            </div>
+                            <div class="field">
+                                <label>Email</label>
+                                <input type="text" name="email" placeholder="Email" />
+                            </div>
+                            <div class="field">
+                                <label>Comment</label>
+                                <textarea name="comment" rows="4" />
+                            </div>
+                            <button class="ui primary button" onClick={this.submit} type="submit">Submit</button>
+                        </form>
+                    </div>
                 </div>
             </div>
         );
