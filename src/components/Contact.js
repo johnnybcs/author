@@ -1,10 +1,8 @@
 import React from 'react';
-
 import Navigation from './Navigation';
+import Footer from './Footer';
 import Typical from 'react-typical';
-
 import {SpeechBubble} from 'react-kawaii';
-
 import './style.css';
 
 const DEFAULT_MOOD = 'happy';
@@ -45,6 +43,7 @@ class Contact extends React.Component {
                 <Navigation />
                 <div className="app background-contact">
                     <br />
+                    <br />
                     <div onClick={this.onClick} onMouseEnter={this.onMouseEnter} onMouseLeave={this.onMouseLeave}>
                         <SpeechBubble size={300} mood={this.state.mood} color="#83D1FB" text="Hello!" />
                     </div>
@@ -58,6 +57,8 @@ class Contact extends React.Component {
                             wrapper="b"
                         />
                     </div>
+                    <br />
+                    <br />
                     <br />
                     <br />
                     <br />
@@ -79,7 +80,11 @@ class Contact extends React.Component {
                             <button class="ui primary button" onClick={this.submit} type="submit">Submit</button>
                         </form>
                     </div>
+                    <br />
+                    <br />
+                    <br />
                 </div>
+                <Footer />
             </div>
         );
     }
