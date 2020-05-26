@@ -38,10 +38,10 @@ class App extends React.Component {
                                 </div>
                                 <div class="middle aligned row">
                                     <div class="column">
-                                        <img class="ui huge image" src="WorldBreakerCover.jpg" alt="cover" />
+                                        <img class="ui huge image" src="worldBreakerCover.jpg" alt="cover" />
                                     </div>
                                     <div class="column">
-                                        <img class="ui huge image" src="WorldBreakerBack.jpg" alt="back" />
+                                        <img class="ui huge image" src="worldBreakerBack.jpg" alt="back" />
                                     </div>
                                 </div>
                             </div>
