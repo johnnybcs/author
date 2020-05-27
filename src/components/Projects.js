@@ -23,6 +23,7 @@ class Projects extends React.Component {
                             <a href="https://prescriptiontranslator.herokuapp.com/" target="_blank" rel="noopener noreferrer">
                                 <img className="ui fluid image" src="prescriptionTranslator.png" alt="screenshot" />
                             </a>
+                            <div className="ui red tag bottom right attached large label">Implemented with JavaScript, PHP, and MySQL</div>
                         </div>
                     </div>
                     <br />
@@ -40,6 +41,7 @@ class Projects extends React.Component {
                                         <div className="column">
                                             <img className="ui huge image" src="medicalDiagnosisSystem2.png" alt="screenshot" />
                                         </div>
+                                        <div className="ui blue tag bottom right attached large label">Implemented with Java and JavaFX</div>
                                     </div>
                                 </div>
                             </a>
@@ -52,6 +54,7 @@ class Projects extends React.Component {
                         <div className="ui container raised segment" id="101Animals">
                             <ImageGallery items={images} />
                         </div>
+                        <div className="ui violet tag bottom right attached large label">Implemented with Java and JavaFX</div>
                     </div>
                 </div>
                 </div>
