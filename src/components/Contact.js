@@ -63,7 +63,7 @@ class Contact extends React.Component {
                     <br />
                     <br />
                     <div class="ui segment container" style={{textAlign: "left", width: "370px", paddingTop: "3em"}}>
-                    <label id="formTitle" class="ui top attached green huge label">Questions? Drop me a line</label>
+                    <label id="formTitle" class="ui top attached green huge label">Questions? Drop me a line.</label>
                         <form id="form" class="ui form" style={{fontSize: "17px"}} action="mailto:johnny@ualberta.ca" method="post">
                             <div class="field">
                                 <label>Name</label>
