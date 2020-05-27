@@ -24,67 +24,66 @@ for (var k = 0; k < 11; k++) {
 }
 
 class App extends React.Component {
-
     render() {
         return (
             <div>
                 <Navigation />
-                <div class="ui grid">
-                    <div class="row">
-                        <div class="ui container raised segment" id="101Animals">
-                            <a class="ui orange ribbon huge label" target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/dp/B07D4LX1LY">101 Animals</a>
+                <div className="ui grid">
+                    <div className="row">
+                        <div className="ui container raised segment" id="101Animals">
+                            <a className="ui orange ribbon huge label" target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/dp/B07D4LX1LY">101 Animals</a>
                             <ImageGallery items={images} />
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="ui container raised segment" id="worldBreaker">
-                            <a class="ui red ribbon huge label" target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/dp/B07CJ29VPJ">World Breaker</a>
-                            <div class="ui two column stackable center aligned grid">
-                                <div class="ui vertical divider">
+                    <div className="row">
+                        <div className="ui container raised segment" id="worldBreaker">
+                            <a className="ui red ribbon huge label" target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/dp/B07CJ29VPJ">World Breaker</a>
+                            <div className="ui two column stackable center aligned grid">
+                                <div className="ui vertical divider">
                                 </div>
-                                <div class="middle aligned row">
-                                    <div class="column">
-                                        <img class="ui huge image" src="worldBreakerCover.jpg" alt="cover" />
+                                <div className="middle aligned row">
+                                    <div className="column">
+                                        <img className="ui huge image" src="worldBreakerCover.jpg" alt="cover" />
                                     </div>
-                                    <div class="column">
-                                        <img class="ui huge image" src="worldBreakerBack.jpg" alt="back" />
+                                    <div className="column">
+                                        <img className="ui huge image" src="worldBreakerBack.jpg" alt="back" />
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="row">
+                    <div className="row">
                         <br />
-                        <div class="ui container raised segment" id="vehicles">
-                            <a class="ui black ribbon huge label" target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/dp/B07FYCBVSC">My First Book of Vehicles</a>
-                            <img class="ui fluid image" src="vehiclesCover.jpg" alt="cover" />
+                        <div className="ui container raised segment" id="vehicles">
+                            <a className="ui black ribbon huge label" target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/dp/B07FYCBVSC">My First Book of Vehicles</a>
+                            <img className="ui fluid image" src="vehiclesCover.jpg" alt="cover" />
                         </div>
                     </div>
-                    <div class="row">
+                    <div className="row">
                         <br />
-                        <div class="ui container raised segment" id="namesOfFruitsAndVegetables">
-                            <a class="ui blue ribbon huge label" target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/dp/B07GDCXYZ6">Names of Fruits and Vegetables</a>
+                        <div className="ui container raised segment" id="namesOfFruitsAndVegetables">
+                            <a className="ui blue ribbon huge label" target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/dp/B07GDCXYZ6">Names of Fruits and Vegetables</a>
                             <ImageGallery items={images2} />
                         </div>
                     </div>
-                    <div class="row">
+                    <div className="row">
                         <br />
-                        <div class="ui container raised segment" id="myFirstBookOfThingsThatMove">
-                            <a class="ui purple ribbon huge label" target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/dp/B07G721HP3">My First Book of Things that Move</a>
-                            <img class="ui fluid image" src="thingsThatMoveCover.jpg" alt="cover" />
+                        <div className="ui container raised segment" id="myFirstBookOfThingsThatMove">
+                            <a className="ui purple ribbon huge label" target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/dp/B07G721HP3">My First Book of Things that Move</a>
+                            <img className="ui fluid image" src="thingsThatMoveCover.jpg" alt="cover" />
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="ui container raised segment" id="ape">
-                            <a class="ui brown ribbon huge label" target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/dp/B07TQ73JFY">Ape: A Visual Enyclopedia of Primates</a>
+                    <div className="row">
+                        <div className="ui container raised segment" id="ape">
+                            <a className="ui brown ribbon huge label" target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/dp/B07TQ73JFY">Ape: A Visual Enyclopedia of Primates</a>
                             <ImageGallery items={images3} />
                         </div>
                     </div>
-                    <div class="row">
+                    <div className="row">
                         <br />
-                        <div class="ui container raised segment" id="nature">
-                            <a class="ui teal ribbon huge label" target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/dp/B07FT3MCTT">Beautiful Photographs of Nature</a>
-                            <img class="ui fluid image" src="natureCover.jpg" alt="cover" />
+                        <div className="ui container raised segment" id="nature">
+                            <a className="ui teal ribbon huge label" target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/dp/B07FT3MCTT">Beautiful Photographs of Nature</a>
+                            <img className="ui fluid image" src="natureCover.jpg" alt="cover" />
                         </div>
                     </div>
                 </div>
