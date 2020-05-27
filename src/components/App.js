@@ -1,5 +1,6 @@
 import React from 'react';
 import About from './About';
+import Projects from './Projects';
 import Contact from './Contact';
 import Home from './Home';
 import { Switch, Route } from 'react-router-dom';
@@ -11,6 +12,9 @@ const App = () => (
         </Route>
         <Route exact path='/about'>
             <About />
+        </Route>
+        <Route exact path='/projects'>
+            <Projects />
         </Route>
         <Route exact path='/contact'>
             <Contact />

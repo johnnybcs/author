@@ -9,10 +9,10 @@ class Footer extends React.Component {
                 <br />
                 <br />
                 <div className="ui centered grid">
-                    <div class="row">
-                        <a href="#top" style={{color:"black"}}><i class="hand point up outline huge icon"  /></a>
+                    <div className="row">
+                        <a href="#top" style={{color:"black"}}><i className="hand point up outline huge icon"  /></a>
                     </div>
-                    <i class="copyright outline icon"></i>Johnny Li
+                    <i className="copyright outline icon"></i>Johnny Li
                 </div>
                 <br />
                 <br />        
