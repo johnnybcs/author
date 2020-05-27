@@ -54,7 +54,9 @@ class Projects extends React.Component {
                         <div className="ui container raised segment" id="101Animals">
                             <ImageGallery items={images} />
                         </div>
-                        <div className="ui violet tag bottom right attached large label">Implemented with Java and JavaFX</div>
+                        <a href="https://github.com/johnnybcs/WeightTracker" target="_blank" rel="noopener noreferrer">
+                            <div className="ui violet tag bottom right attached large label">Implemented with Java and JavaFX</div>
+                        </a>
                     </div>
                 </div>
                 </div>
