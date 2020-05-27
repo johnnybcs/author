@@ -17,6 +17,12 @@ for (var j = 0; j < 7; j++) {
     images2.push({ original: pagePath2, thumbnail: pagePath2 });
 }
 
+var images3 = [];
+for (var k = 0; k < 11; k++) {
+    var pagePath3 = './pages3/p' + k.toString() + '.jpg';
+    images3.push({ original: pagePath3, thumbnail: pagePath3 });
+}
+
 class App extends React.Component {
 
     render() {
@@ -49,6 +55,13 @@ class App extends React.Component {
                     </div>
                     <div class="row">
                         <br />
+                        <div class="ui container raised segment" id="vehicles">
+                            <a class="ui black ribbon huge label" target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/dp/B07FYCBVSC">My First Book of Vehicles</a>
+                            <img class="ui fluid image" src="vehiclesCover.jpg" alt="cover" />
+                        </div>
+                    </div>
+                    <div class="row">
+                        <br />
                         <div class="ui container raised segment" id="namesOfFruitsAndVegetables">
                             <a class="ui blue ribbon huge label" target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/dp/B07GDCXYZ6">Names of Fruits and Vegetables</a>
                             <ImageGallery items={images2} />
@@ -59,6 +72,19 @@ class App extends React.Component {
                         <div class="ui container raised segment" id="myFirstBookOfThingsThatMove">
                             <a class="ui purple ribbon huge label" target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/dp/B07G721HP3">My First Book of Things that Move</a>
                             <img class="ui fluid image" src="thingsThatMoveCover.jpg" alt="cover" />
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="ui container raised segment" id="ape">
+                            <a class="ui brown ribbon huge label" target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/dp/B07TQ73JFY">Ape: A Visual Enyclopedia of Primates</a>
+                            <ImageGallery items={images3} />
+                        </div>
+                    </div>
+                    <div class="row">
+                        <br />
+                        <div class="ui container raised segment" id="nature">
+                            <a class="ui teal ribbon huge label" target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/dp/B07FT3MCTT">Beautiful Photographs of Nature</a>
+                            <img class="ui fluid image" src="natureCover.jpg" alt="cover" />
                         </div>
                     </div>
                 </div>
