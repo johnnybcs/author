@@ -20,7 +20,7 @@ class Navigation extends React.Component {
                             </div>
                             <div className="item">
                                 <NavLink exact to='/about' className="nav-link" activeStyle={{textDecoration:"underline", color:"black"}}>
-                                    Biography
+                                    Bio
                                 </NavLink>
                             </div>
                             <div className="item">
