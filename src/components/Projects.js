@@ -6,7 +6,7 @@ import './style.css';
 
 var images = [];
 for (var i = 0; i < 4; i++) {
-    var pagePath = './pages4/p' + i.toString() + '.png';
+    var pagePath = './pages4/p' + i.toString() + '.jpg';
     images.push({ original: pagePath, thumbnail: pagePath });
 }
 
@@ -17,7 +17,7 @@ class Projects extends React.Component {
                 <Navigation />
                 <br />
                 <br />
-                <div className="app background-projects">
+                <div className="app">
                     <div className="ui container raised segments">
                         <div className="ui segment">
                             <a href="https://prescriptiontranslator.herokuapp.com/" target="_blank" rel="noopener noreferrer">
@@ -52,7 +52,7 @@ class Projects extends React.Component {
                     <div className="ui container raised segments">
                     <div className="ui segment">
                         <div className="ui container raised segment" id="101Animals">
-                            <ImageGallery items={images} />
+                            <ImageGallery items={images} showFullscreenButton={false} showThumbnails={false} showPlayButton={false}/>
                         </div>
                         <a href="https://github.com/johnnybcs/WeightTracker" target="_blank" rel="noopener noreferrer">
                             <div className="ui violet tag bottom right attached large label">Implemented with Java and JavaFX</div>
