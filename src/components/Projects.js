@@ -61,8 +61,6 @@ class Projects extends React.Component {
                 </div>
                 </div>
                 <br />
-                <br />
-                <br />
                 <Footer />
             </div>
         );

@@ -46,6 +46,7 @@ class Contact extends React.Component {
                         </form>
                     </div>
                 </div>
+                <br />
                 <Footer />
             </div>
         );
