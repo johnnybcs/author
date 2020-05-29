@@ -22,6 +22,14 @@ class About extends React.Component {
         window.$('.shape').shape('flip right');
     }
 
+    onClickCat = () => {
+        window.$('#cat').transition('jiggle').transition('bounce').transition('tada').transition('pulse').transition('shake').transition('flash').transition('fade', '8000ms');
+    }
+
+    onClickRocket = () => {
+        window.$('#rocket').transition('jiggle').transition('fly down', '5000ms');
+    }
+
     render() {
         return (
             <div>
@@ -148,21 +156,14 @@ class About extends React.Component {
                                             </div>
                                         </div>
                                     </div>
-                                <div className="ui fluid buttons">
-                                <div class="ui green button" onClick={this.onClickLeft}>
-                                        <i class="left long arrow icon"></i>
-                                </div>
-                                <div class="ui green button" onClick={this.onClickRight}>
-                                <i class="right long arrow icon"></i>
-                                </div>
-                                </div>
-
-
-
-
-
-
-
+                                    <div className="ui fluid buttons">
+                                        <div class="ui green button" onClick={this.onClickLeft}>
+                                            <i class="left long arrow icon"></i>
+                                        </div>
+                                        <div class="ui green button" onClick={this.onClickRight}>
+                                            <i class="right long arrow icon"></i>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -171,8 +172,10 @@ class About extends React.Component {
                                 <div className="visible content">
                                     <img src="curtains.jpg" className="ui fluid rounded image" alt="curtains" />
                                 </div>
-                                <div className="hidden content">
-
+                                <div className="hidden content" style={{paddingTop: "280px", paddingLeft: "120px"}}>
+                                    <button onClick={this.onClickRocket} style={{border: "none", outline: "none", background: "none"}}>
+                                        <img id="rocket" className="ui rounded image" src="rocket.png" alt='content' style={{height: "120px"}} />
+                                    </button>
                                 </div>
                             </div>
                         </div>
@@ -181,8 +184,10 @@ class About extends React.Component {
                                 <div className="visible content">
                                     <img src="curtains.jpg" className="ui fluid rounded image" alt="curtains" />
                                 </div>
-                                <div className="hidden content">
-
+                                <div className="hidden content" style={{paddingTop: "80px"}}>
+                                    <button onClick={this.onClickCat} style={{border: "none", outline: "none", background: "none"}}>
+                                        <img id="cat" className="ui fluid rounded image" src="cat.png" alt='content' />
+                                    </button>
                                 </div>
                             </div>
                         </div>
