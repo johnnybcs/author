@@ -36,8 +36,6 @@ class About extends React.Component {
                 <Navigation />
                 <div className="ui container">
                     <br />
-                    <br />
-                    <br />
                     <div className="ui stackable three column centered grid" style={{textAlign: "center"}}>
                         <div className="five wide column" style={{minWidth: "330px"}}>
                             <div className="ui move up reveal card" style={{minWidth: "330px"}}>

@@ -6,7 +6,7 @@ import './style.css';
 
 class Contact extends React.Component {
     submit = () => {
-        document.getElementById("formTitle").innerHTML = "Submitted! Thanks for your interest.";
+        document.getElementById("notification").innerHTML = "Submitted!";
         document.getElementById("form").reset();
     }
 
@@ -14,10 +14,12 @@ class Contact extends React.Component {
         return (
             <div>
                 <Navigation />
-                <div className="app background-contact">
-                    <br />
-                    <h1 className="ui huge header" style={{fontSize: "50px"}}>
-                        <Typical
+                <div className="app">
+                <div class="stars small"></div>
+                <div class="stars medium"></div>
+                <div class="stars large"></div>
+                    <h1 id="notification" className="ui huge header" style={{fontSize: "50px"}}>
+                        <Typical id="typical"
                         steps={[
                             'Questions?', 2000,
                             'Drop me a line.', 1500,
@@ -43,9 +45,6 @@ class Contact extends React.Component {
                             <button className="ui primary button" onClick={this.submit} type="submit">Submit</button>
                         </form>
                     </div>
-                    <br />
-                    <br />
-                    <br />
                 </div>
                 <Footer />
             </div>

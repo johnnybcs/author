@@ -31,6 +31,10 @@ a.nav-link:hover {
     background-color: black;
 }
 
+.background-about {
+    background-image: url("background-about.jpg")
+}
+
 .background-contact {
     background-image: url("background-contact.jpg")
 }
