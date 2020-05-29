@@ -40,7 +40,7 @@ class About extends React.Component {
                         <div className="five wide column" style={{minWidth: "330px"}}>
                             <div className="ui move up reveal card" style={{minWidth: "330px"}}>
                                 <div className="visible content">
-                                    <img src="curtains.jpg" className="ui fluid rounded image" alt="curtains" />
+                                    <img src="window.png" className="ui fluid rounded image" alt="curtains" />
                                 </div>
                                 <div className="hidden content">
                                     <ImageGallery items={images} showFullscreenButton={false} showThumbnails={false} 
@@ -55,7 +55,7 @@ class About extends React.Component {
                         <div className="five wide column" style={{minWidth: "330px"}}>
                             <div className="ui move up reveal card" style={{minWidth: "330px"}}>
                                 <div className="visible content">
-                                    <img src="curtains.jpg" className="ui fluid rounded image" alt="curtains" />
+                                    <img src="window.png" className="ui fluid rounded image" alt="curtains" />
                                     </div>
                                 <div className="hidden content">
                                     <img className="ui fluid rounded image" src="headShot.jpg" alt='author' />
@@ -84,7 +84,7 @@ class About extends React.Component {
                         <div className="five wide column" style={{minWidth: "330px"}}>
                             <div className="ui move up reveal card" style={{minWidth: "330px"}}>
                                 <div className="visible content">
-                                    <img src="curtains.jpg" className="ui fluid rounded image" alt="curtains" />
+                                    <img src="window.png" className="ui fluid rounded image" alt="curtains" />
                                 </div>
                                 <div className="hidden content" style={{textAlign: "center"}}>
                                     <img className="ui fluid rounded image" src="SAP.png" alt='content' />
@@ -96,7 +96,6 @@ class About extends React.Component {
                                         <div className="ui header" style={{color: "#696969"}}>SAP Analytics Cloud<br />Infrastructure Team</div>
                                         <br />
                                         <br />
-                                        <br />
                                         <span className="" style={{fontSize: "15px"}}>Sep 2019 - Apr 2020</span>
                                     </div>
                                 </div>
@@ -105,7 +104,7 @@ class About extends React.Component {
                         <div className="five wide column" style={{minWidth: "330px"}}>
                             <div className="ui move up reveal card" style={{minWidth: "330px"}}>
                                 <div className="visible content">
-                                    <img src="curtains.jpg" className="ui fluid rounded image" alt="curtains" />
+                                    <img src="window.png" className="ui fluid rounded image" alt="curtains" />
                                 </div>
                                 <div className="hidden content">
                                     <div class="ui people shape">
@@ -118,7 +117,6 @@ class About extends React.Component {
                                                         <div class="ui sub header" style={{fontSize: "14px", color: "#696969"}}>
                                                             Bachelor of Science in Psychology
                                                         </div>
-                                                    <br />
                                                     <br />
                                                     <span className="" style={{fontSize: "15px"}}>Graduated Jun 2008</span>
                                                     </div>
@@ -133,7 +131,6 @@ class About extends React.Component {
                                                             Doctor of Medicine
                                                         </div>
                                                     <br />
-                                                    <br />
                                                     <span className="" style={{fontSize: "15px"}}>Completed 3 years</span>
                                                     </div>
                                                 </div>
@@ -146,7 +143,6 @@ class About extends React.Component {
                                                         <div class="ui sub header" style={{fontSize: "14px", color: "#696969"}}>
                                                             Bachelor of Computer Science
                                                         </div>
-                                                        <br />
                                                         <br />
                                                         <span className="d" style={{fontSize: "15px"}}>Graduating Apr 2021</span>
                                                     </div>
@@ -168,9 +164,9 @@ class About extends React.Component {
                         <div className="five wide column" style={{minWidth: "330px"}}>
                             <div className="ui move up reveal card" style={{minWidth: "330px"}}>
                                 <div className="visible content">
-                                    <img src="curtains.jpg" className="ui fluid rounded image" alt="curtains" />
+                                    <img src="window.png" className="ui fluid rounded image" alt="curtains" />
                                 </div>
-                                <div className="hidden content" style={{paddingTop: "280px", paddingLeft: "120px"}}>
+                                <div className="hidden content" style={{paddingTop: "270px", paddingLeft: "120px"}}>
                                     <button onClick={this.onClickRocket} style={{border: "none", outline: "none", background: "none"}}>
                                         <img id="rocket" className="ui rounded image" src="rocket.png" alt='content' style={{height: "120px"}} />
                                     </button>
@@ -180,7 +176,7 @@ class About extends React.Component {
                         <div className="five wide column" style={{minWidth: "330px"}}>
                             <div className="ui move up reveal card" style={{minWidth: "330px"}}>
                                 <div className="visible content">
-                                    <img src="curtains.jpg" className="ui fluid rounded image" alt="curtains" />
+                                    <img src="window.png" className="ui fluid rounded image" alt="curtains" />
                                 </div>
                                 <div className="hidden content" style={{paddingTop: "115px", paddingLeft: "60px"}}>
                                     <button onClick={this.onClickCat} style={{border: "none", outline: "none", background: "none"}}>
