@@ -97,7 +97,7 @@ class About extends React.Component {
                                         <br />
                                         <br />
                                         <br />
-                                        <span className="right floated" style={{fontSize: "15px"}}>Sep 2019 - Apr 2020</span>
+                                        <span className="" style={{fontSize: "15px"}}>Sep 2019 - Apr 2020</span>
                                     </div>
                                 </div>
                             </div>
@@ -115,12 +115,12 @@ class About extends React.Component {
                                                     <img className="ui fluid image" src="uofa.jpg" alt="content" />
                                                     <div class="content" style={{textAlign: "center"}}>
                                                         <div class="ui header" style={{fontSize: "17px"}}>The University of Alberta</div>
-                                                        <div class="ui sub header" style={{fontSize: "14px"}}>
+                                                        <div class="ui sub header" style={{fontSize: "14px", color: "#696969"}}>
                                                             Bachelor of Science in Psychology
                                                         </div>
                                                     <br />
                                                     <br />
-                                                    <span className="right floated" style={{fontSize: "15px"}}>Graduated Jun 2008</span>
+                                                    <span className="" style={{fontSize: "15px"}}>Graduated Jun 2008</span>
                                                     </div>
                                                 </div>
                                             </div>
@@ -129,12 +129,12 @@ class About extends React.Component {
                                                     <img className="ui fluid image" src="uofa.jpg" alt="content" />
                                                     <div class="content" style={{textAlign: "center"}}>
                                                         <div class="ui header" style={{fontSize: "17px"}}>The University of Alberta</div>
-                                                        <div class="ui sub header" style={{fontSize: "14px"}}>
+                                                        <div class="ui sub header" style={{fontSize: "14px", color: "#696969"}}>
                                                             Doctor of Medicine
                                                         </div>
                                                     <br />
                                                     <br />
-                                                    <span className="right floated" style={{fontSize: "15px"}}>Completed 3 years</span>
+                                                    <span className="" style={{fontSize: "15px"}}>Completed 3 years</span>
                                                     </div>
                                                 </div>
                                             </div>
@@ -143,12 +143,12 @@ class About extends React.Component {
                                                     <img className="ui fluid image" src="ubc.jpg" alt="content" />
                                                     <div class="content" style={{textAlign: "center"}}>
                                                         <div class="ui header" style={{fontSize: "17px"}}>The University of British Columbia</div>
-                                                        <div class="ui sub header" style={{fontSize: "14px"}}>
+                                                        <div class="ui sub header" style={{fontSize: "14px", color: "#696969"}}>
                                                             Bachelor of Computer Science
                                                         </div>
                                                         <br />
                                                         <br />
-                                                        <span className="right floated" style={{fontSize: "15px"}}>Graduating Apr 2021</span>
+                                                        <span className="d" style={{fontSize: "15px"}}>Graduating Apr 2021</span>
                                                     </div>
                                                 </div>
                                             </div>
