@@ -182,9 +182,9 @@ class About extends React.Component {
                                 <div className="visible content">
                                     <img src="curtains.jpg" className="ui fluid rounded image" alt="curtains" />
                                 </div>
-                                <div className="hidden content" style={{paddingTop: "80px"}}>
+                                <div className="hidden content" style={{paddingTop: "115px", paddingLeft: "60px"}}>
                                     <button onClick={this.onClickCat} style={{border: "none", outline: "none", background: "none"}}>
-                                        <img id="cat" className="ui fluid rounded image" src="cat.png" alt='content' />
+                                        <img id="cat" className="ui fluid rounded image" src="cat.png" alt='content' style={{width: "210px"}} />
                                     </button>
                                 </div>
                             </div>
