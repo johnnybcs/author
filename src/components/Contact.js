@@ -1,36 +1,10 @@
 import React from 'react';
 import Navigation from './Navigation';
 import Footer from './Footer';
-import {SpeechBubble} from 'react-kawaii';
+import Typical from 'react-typical';
 import './style.css';
 
-const DEFAULT_MOOD = 'happy';
-
 class Contact extends React.Component {
-    state = {
-        mood: DEFAULT_MOOD
-    };
-
-    componentDidMount() {
-        this.setState({mood: DEFAULT_MOOD});
-    }
-
-    onClick = () => {
-        if (this.state.mood !== 'shocked') {
-            this.setState({mood: 'shocked'});
-        } else {
-            this.setState({mood: DEFAULT_MOOD});
-        }
-    }
-
-    onMouseEnter = () => {
-        this.setState({mood: 'blissful'});
-    }
-
-    onMouseLeave = () => {
-        this.setState({mood: DEFAULT_MOOD});
-    }
-
     submit = () => {
         document.getElementById("formTitle").innerHTML = "Submitted! Thanks for your interest.";
         document.getElementById("form").reset();
@@ -42,14 +16,17 @@ class Contact extends React.Component {
                 <Navigation />
                 <div className="app background-contact">
                     <br />
-                    <br />
-                    <br />
-                    <div onClick={this.onClick} onMouseEnter={this.onMouseEnter} onMouseLeave={this.onMouseLeave}>
-                        <SpeechBubble size={300} mood={this.state.mood} color="#83D1FB" text="Hello!" />
-                    </div>
-                    <br />
-                    <div className="ui segment container" style={{textAlign: "left", width: "370px", paddingTop: "3em"}}>
-                    <label id="formTitle" className="ui top attached teal huge label" style={{textAlign: "center"}}>Questions? Drop me a line.</label>
+                    <h1 className="ui huge header" style={{fontSize: "50px"}}>
+                        <Typical
+                        steps={[
+                            'Questions?', 2000,
+                            'Drop me a line.', 1500,
+                        ]} 
+                        loop={1}
+                        wrapper="b"
+                        />
+                    </h1>
+                    <div className="ui segment container" style={{textAlign: "left", width: "370px"}}>
                         <form id="form" className="ui form" style={{fontSize: "17px"}} action="mailto:johnny@ualberta.ca" method="post">
                             <div className="field">
                                 <label>Name</label>
