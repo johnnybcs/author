@@ -27,15 +27,15 @@ class About extends React.Component {
     }
 
     onClickRocket = () => {
-        window.$('#rocket').transition('jiggle').transition('fly down', '2000ms').transition('fly down', '2000ms');
+        window.$('#rocket').transition('jiggle').transition('fly down', '3000ms').transition('fly down', '2000ms');
     }
 
     render() {
         return (
             <div>
                 <Navigation />
+                <br />
                 <div className="ui app">
-                    <br />
                         <div className="ui card">
                             <img className="ui fluid rounded image" src="headShot.jpg" alt='author' />
                             <div className="content" style={{textAlign: "center"}}>
@@ -141,10 +141,10 @@ class About extends React.Component {
                                 </div>
                             </div>
                             <div className="ui fluid buttons">
-                                <div class="ui green button" onClick={this.onClickLeft}>
+                                <div class="ui blue button" onClick={this.onClickLeft}>
                                     <i class="left long arrow icon"></i>
                                 </div>
-                                <div class="ui green button" onClick={this.onClickRight}>
+                                <div class="ui blue button" onClick={this.onClickRight}>
                                     <i class="right long arrow icon"></i>
                                 </div>
                             </div>

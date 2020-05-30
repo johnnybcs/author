@@ -28,15 +28,16 @@ class App extends React.Component {
         return (
             <div>
                 <Navigation />
+                <br />
                 <div className="ui grid">
                     <div className="row">
-                        <div className="ui container raised segment" id="101Animals" style={{width: "600px"}}>
+                        <div className="ui container raised segment" id="101Animals" style={{width: "700px"}}>
                             <a className="ui orange ribbon large label" target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/dp/B07D4LX1LY">101 Animals</a>
                             <ImageGallery items={images} />
                         </div>
                     </div>
                     <div className="row">
-                        <div className="ui container raised segment" id="worldBreaker" style={{width: "600px"}}>
+                        <div className="ui container raised segment" id="worldBreaker" style={{width: "700px"}}>
                             <a className="ui red ribbon large label" target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/dp/B07CJ29VPJ">World Breaker</a>
                             <div className="ui two column stackable center aligned grid">
                                 <div className="ui vertical divider">
@@ -54,36 +55,36 @@ class App extends React.Component {
                     </div>
                     <div className="row">
                         <br />
-                        <div className="ui container raised segment" id="vehicles" style={{width: "600px"}}>
+                        <div className="ui container raised segment" id="vehicles" style={{width: "700px"}}>
                             <a className="ui black ribbon large label" target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/dp/B07FYCBVSC">My First Book of Vehicles</a>
                             <img className="ui fluid image" src="vehiclesCover.jpg" alt="cover" />
                         </div>
                     </div>
                     <div className="row">
                         <br />
-                        <div className="ui container raised segment" id="namesOfFruitsAndVegetables" style={{width: "600px"}}>
+                        <div className="ui container raised segment" id="namesOfFruitsAndVegetables" style={{width: "700px"}}>
                             <a className="ui blue ribbon large label" target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/dp/B07GDCXYZ6">Names of Fruits and Vegetables</a>
                             <ImageGallery items={images2} />
                         </div>
                     </div>
                     <div className="row">
                         <br />
-                        <div className="ui container raised segment" id="myFirstBookOfThingsThatMove" style={{width: "600px"}}>
+                        <div className="ui container raised segment" id="myFirstBookOfThingsThatMove" style={{width: "700px"}}>
                             <a className="ui purple ribbon large label" target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/dp/B07G721HP3">My First Book of Things that Move</a>
                             <img className="ui fluid image" src="thingsThatMoveCover.jpg" alt="cover" />
                         </div>
                     </div>
                     <div className="row">
-                        <div className="ui container raised segment" id="ape" style={{width: "600px"}}>
-                            <a className="ui brown ribbon large label" target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/dp/B07TQ73JFY">Ape: A Visual Enyclopedia of Primates</a>
-                            <ImageGallery items={images3} />
+                        <br />
+                        <div className="ui container raised segment" id="nature" style={{width: "700px"}}>
+                            <a className="ui teal ribbon large label" target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/dp/B07FT3MCTT">Beautiful Photographs of Nature</a>
+                            <img className="ui fluid image" src="natureCover.jpg" alt="cover" />
                         </div>
                     </div>
                     <div className="row">
-                        <br />
-                        <div className="ui container raised segment" id="nature" style={{width: "600px"}}>
-                            <a className="ui teal ribbon large label" target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/dp/B07FT3MCTT">Beautiful Photographs of Nature</a>
-                            <img className="ui fluid image" src="natureCover.jpg" alt="cover" />
+                        <div className="ui container raised segment" id="ape" style={{width: "700px"}}>
+                            <a className="ui brown ribbon large label" target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/dp/B07TQ73JFY">Ape: A Visual Enyclopedia of Primates</a>
+                            <ImageGallery items={images3} />
                         </div>
                     </div>
                 </div>
