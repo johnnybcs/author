@@ -16,9 +16,8 @@ class Projects extends React.Component {
             <div>
                 <Navigation />
                 <br />
-                <br />
                 <div className="app">
-                    <div className="ui container raised segments">
+                    <div className="ui container raised segments" style={{width: "1000px"}}>
                         <div className="ui segment">
                             <a href="https://prescriptiontranslator.herokuapp.com/" target="_blank" rel="noopener noreferrer">
                                 <img className="ui fluid image" src="prescriptionTranslator.png" alt="screenshot" />
@@ -28,7 +27,7 @@ class Projects extends React.Component {
                     </div>
                     <br />
                     <br />
-                    <div className="ui container raised segments">
+                    <div className="ui container raised segments" style={{width: "1000px"}}>
                         <div className="ui segment">
                             <a href="https://github.com/johnnybcs/MedicalDiagnosisSystem" target="_blank" rel="noopener noreferrer">
                                 <div className="ui two column stackable center aligned grid">
@@ -49,7 +48,7 @@ class Projects extends React.Component {
                     </div> 
                     <br />
                     <br />
-                    <div className="ui container raised segments">
+                    <div className="ui container raised segments" style={{width: "1000px"}}>
                     <div className="ui segment">
                         <div className="ui container raised segment" id="101Animals">
                             <ImageGallery items={images} showFullscreenButton={false} showThumbnails={false} showPlayButton={false}/>
