@@ -157,6 +157,7 @@ class About extends React.Component {
                                     <img id="rocket" className="ui rounded image" src="rocket.png" alt='content' style={{height: "140px"}} />
                                 </button>
                             </div>
+                            <br />
                         </div>
                 </div>
                 <br />
