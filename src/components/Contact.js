@@ -10,15 +10,19 @@ class Contact extends React.Component {
         document.getElementById("form").reset();
     }
 
+    onClickSpeechBubble = () => {
+        window.$('#speechBubble').transition('jiggle').transition('tada');
+    }
+
     render() {
         return (
             <div>
                 <Navigation />
                 <div className="app">
-                <div class="stars small"></div>
-                <div class="stars medium"></div>
-                <div class="stars large"></div>
-                    <h1 id="notification" className="ui huge header" style={{fontSize: "50px"}}>
+                <button onClick={this.onClickSpeechBubble} style={{border: "none", outline: "none", background: "none"}}>
+                    <img id="speechBubble" className="ui image" src="speechBubble.png" alt='content'  style={{height: "90px"}}/>
+                </button>                   
+                    <h1 id="notification" className="ui huge header" style={{fontSize: "30px"}}>
                         <Typical id="typical"
                         steps={[
                             'Questions?', 2000,
