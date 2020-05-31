@@ -54,7 +54,7 @@ class App extends React.Component {
                     <div className="row">
                         <div className="ui container raised segment" style={{width: "1000px", padding: "0 0 0 0"}}>
                             <ImageGallery items={images7} showFullscreenButton={false} showThumbnails={false} 
-                            showPlayButton={false} showNav={false} autoPlay={true} slideInterval={5000} />
+                            showPlayButton={false} showNav={false} autoPlay={true} slideInterval={6000} />
                             <a className="ui top right attached orange large label" target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/dp/B07D4LX1LY">
                                 Customer reviews from Amazon.com
                             </a>
@@ -82,7 +82,7 @@ class App extends React.Component {
                         </div>
                     </div>
                     <div className="centered row" >
-                        <div class="ui four statistics" style={{width: "800px"}}>
+                        <div class="ui four statistics" style={{width: "700px"}}>
                             <div class="statistic">
                                 <div class="value">
                                     212
