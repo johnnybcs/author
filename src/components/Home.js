@@ -142,7 +142,7 @@ class App extends React.Component {
                         <br />
                         <div className="ui container raised segment" id="namesOfFruitsAndVegetables" style={{width: "700px"}}>
                             <a className="ui blue ribbon large label" target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/dp/B07GDCXYZ6">Names of Fruits and Vegetables</a>
-                            <ImageGallery items={images2} />
+                            <ImageGallery items={images2}  showFullscreenButton={false} showThumbnails={false} showPlayButton={false}/>
                         </div>
                     </div>
                     <div className="row">
@@ -154,6 +154,21 @@ class App extends React.Component {
                         <div className="ui container raised segment" id="myFirstBookOfThingsThatMove" style={{width: "700px"}}>
                             <a className="ui purple ribbon large label" target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/dp/B07G721HP3">My First Book of Things that Move</a>
                             <img className="ui fluid image" src="thingsThatMoveCover.jpg" alt="cover" />
+                        </div>
+                    </div>
+                    <div className="centered container row">
+                        <div className="ui tiny images">
+                        <div className="ui purple large pointing below basic label">Available from these sellers</div><br/><br />
+
+                            <a href="https://www.amazon.com/dp/B07G721HP3" target="_blank" rel="noopener noreferrer">
+                                <img src="./logos/amazon.png" alt="content" style={{marginLeft: "40px", marginRight: "30px"}}/>
+                            </a>
+                            <a href="https://www.apple.com/ca/apple-books/" target="_blank" rel="noopener noreferrer">
+                                <img src="./logos/apple.png" alt="content"  style={{marginLeft: "40px", marginRight: "30px"}}/>
+                            </a>
+                            <a href="https://www.kobo.com/ca/en/ebook/my-first-book-of-things-that-move" target="_blank" rel="noopener noreferrer">
+                                <img src="./logos/kobo.png" alt="content"  style={{marginLeft: "40px", marginRight: "30px"}}/>
+                            </a>
                         </div>
                     </div>
                     <div className="row">
@@ -173,7 +188,7 @@ class App extends React.Component {
                     <div className="row">
                         <div className="ui container raised segment" id="ape" style={{width: "700px"}}>
                             <a className="ui brown ribbon large label" target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/dp/B07TQ73JFY">Ape: A Visual Enyclopedia of Primates</a>
-                            <ImageGallery items={images3} />
+                            <ImageGallery items={images3}  showFullscreenButton={false} showThumbnails={false} showPlayButton={false}/>
                         </div>
                     </div>
                 </div>
