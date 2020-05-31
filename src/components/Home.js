@@ -24,7 +24,7 @@ for (var k = 0; k < 11; k++) {
 }
 
 var images7 = [];
-for (var l = 0; l < 8; l++) {
+for (var l = 0; l < 4; l++) {
     var pagePath7 = './pages7/p' + l.toString() + '.png';
     images7.push({ original: pagePath7, thumbnail: pagePath7 });
 }
@@ -52,11 +52,11 @@ class App extends React.Component {
                         </div>
                     </div>
                     <div className="row">
-                        <div className="ui container raised segment" style={{width: "1000px", padding: "0 0 0 0"}}>
+                        <div className="ui container raised segment" style={{width: "700px", height: "150px", padding: "0 0 0 0"}}>
                             <ImageGallery items={images7} showFullscreenButton={false} showThumbnails={false} 
-                            showPlayButton={false} showNav={false} autoPlay={true} slideInterval={6000} />
-                            <a className="ui top right attached orange large label" target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/dp/B07D4LX1LY">
-                                Customer reviews from Amazon.com
+                            showPlayButton={false} showNav={false} autoPlay={true} slideInterval={3000} />
+                            <a className="ui top right attached orange label" target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/dp/B07D4LX1LY">
+                                Amazon Reviews
                             </a>
                         </div>
                     </div>
