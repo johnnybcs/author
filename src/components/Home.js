@@ -30,15 +30,10 @@ for (var l = 0; l < 4; l++) {
 }
 
 class App extends React.Component {
-    onClickUp = () => {
-        window.$('.shape').shape();
-        window.$('.shape').shape('flip up');
+    onClickCar = () => {
+        window.$('#car').transition('shake').transition('fly left', '2000ms').transition('fly right', '2000ms');
     }
 
-    onClickDown = () => {
-        window.$('.shape').shape();
-        window.$('.shape').shape('flip down');
-    }    
     render() {
         return (
             <div>
@@ -130,16 +125,6 @@ class App extends React.Component {
                     </div>
                     <div className="row">
                         <br />
-                        <div className="ui container raised segment" id="vehicles" style={{width: "700px"}}>
-                            <a className="ui black ribbon large label" target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/dp/B07FYCBVSC">My First Book of Vehicles</a>
-                            <img className="ui fluid image" src="vehiclesCover.jpg" alt="cover" />
-                        </div>
-                    </div>
-                    <div className="row">
-                        <br />
-                        <br />
-                    </div>                    <div className="row">
-                        <br />
                         <div className="ui container raised segment" id="namesOfFruitsAndVegetables" style={{width: "700px"}}>
                             <a className="ui blue ribbon large label" target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/dp/B07GDCXYZ6">Names of Fruits and Vegetables</a>
                             <ImageGallery items={images2}  showFullscreenButton={false} showThumbnails={false} showPlayButton={false}/>
@@ -191,6 +176,21 @@ class App extends React.Component {
                             <ImageGallery items={images3}  showFullscreenButton={false} showThumbnails={false} showPlayButton={false}/>
                         </div>
                     </div>
+                    <div className="row">
+                        <br />
+                        <br />
+                    </div>
+                    <div className="row">
+                        <div className="ui container raised segment" id="vehicles" style={{width: "700px"}}>
+                            <a className="ui black ribbon large label" target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/dp/B07FYCBVSC">My First Book of Vehicles</a>
+                            <img className="ui fluid image" src="vehiclesCover.jpg" alt="cover" />
+                        </div>
+                    </div>
+                    <div className="centered row">
+                    <button onClick={this.onClickCar} style={{border: "none", outline: "none", background: "none"}}>
+                        <img id="car" className="ui rounded image" src="porsche.png" alt='content'  style={{height: "200px"}}/>
+                    </button>
+                </div>
                 </div>
                 <br />
                 <Footer />
