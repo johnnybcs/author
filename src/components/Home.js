@@ -192,7 +192,6 @@ class App extends React.Component {
                     </button>
                 </div>
                 </div>
-                <br />
                 <Footer />
             </div>
         );
