@@ -23,7 +23,7 @@ class About extends React.Component {
     }
 
     onClickCar = () => {
-        window.$('#car').transition('shake').transition('bounce').transition('fly right', '2000ms').transition('fly left', '2000ms');
+        window.$('#car').transition('bounce').transition('fly right', '2000ms').transition('fly left', '2000ms');
     }
 
     onClickRocket = () => {
