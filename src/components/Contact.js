@@ -34,7 +34,7 @@ class Contact extends React.Component {
                         />
                     </h1>
                     <div className="ui segment container" style={{textAlign: "left", width: "370px"}}>
-                        <form id="form" className="ui form" style={{fontSize: "17px"}} action="mailto:johnny@ualberta.ca" method="post">
+                        <form id="form" className="ui form" style={{fontSize: "17px"}} action="" method="post">
                             <div className="field">
                                 <label>Name</label>
                                 <input type="text" name="name" placeholder="Name" />
