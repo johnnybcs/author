@@ -49,7 +49,7 @@ class App extends React.Component {
                     <div className="row">
                         <div className="ui container raised segment" style={{width: "700px", height: "150px", padding: "0 0 0 0"}}>
                             <ImageGallery items={images7} showFullscreenButton={false} showThumbnails={false} 
-                            showPlayButton={false} showNav={false} autoPlay={true} slideInterval={5000} />
+                            showPlayButton={false} showNav={false} autoPlay={true} slideInterval={4000} />
                             <a className="ui top right attached orange label" target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/dp/B07D4LX1LY">
                                 Amazon Reviews
                             </a>
