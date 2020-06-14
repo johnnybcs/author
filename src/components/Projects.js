@@ -10,6 +10,12 @@ for (var i = 0; i < 4; i++) {
     images.push({ original: pagePath, thumbnail: pagePath });
 }
 
+var images2 = [];
+for (var j = 0; j < 10; j++) {
+    var pagePath2 = './pages8/p' + j.toString() + '.png';
+    images2.push({ original: pagePath2, thumbnail: pagePath2 });
+}
+
 class Projects extends React.Component {
     render() {
         return (
@@ -27,6 +33,18 @@ class Projects extends React.Component {
                     </div>
                     <br />
                     <br />
+                    <div className="ui container raised segments" style={{width: "1000px"}}>
+                    <div className="ui segment">
+                        <div className="ui container raised segment" id="ridehail">
+                            <ImageGallery items={images2} showFullscreenButton={false} showThumbnails={false} showPlayButton={false} />
+                        </div>
+                        <a href="https://ridehail.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+                            <div className="ui violet tag bottom right attached large label">Implemented with JavaScript, PHP, and MySQL</div>
+                        </a>
+                    </div>
+                </div>
+                <br />
+                <br />
                     <div className="ui container raised segments" style={{width: "1000px"}}>
                         <div className="ui segment">
                             <a href="https://github.com/johnnybcs/MedicalDiagnosisSystem" target="_blank" rel="noopener noreferrer">
@@ -48,7 +66,7 @@ class Projects extends React.Component {
                     </div> 
                     <br />
                     <br />
-                    <div className="ui container raised segments" style={{width: "1000px"}}>
+                    <div className="ui container raised segments" style={{width: "1200px"}}>
                     <div className="ui segment">
                         <div className="ui container raised segment" id="101Animals">
                             <ImageGallery items={images} showFullscreenButton={false} showThumbnails={false} showPlayButton={false}/>
