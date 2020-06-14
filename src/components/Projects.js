@@ -28,7 +28,7 @@ class Projects extends React.Component {
                             <a href="https://prescriptiontranslator.herokuapp.com/" target="_blank" rel="noopener noreferrer">
                                 <img className="ui fluid image" src="prescriptionTranslator.png" alt="screenshot" />
                             </a>
-                            <div className="ui red tag bottom right attached large label">Implemented with JavaScript, PHP, and MySQL</div>
+                            <div className="ui red tag bottom right attached large label">Implemented with HTML, CSS, Bootstrap, JavaScript, PHP, and MySQL</div>
                         </div>
                     </div>
                     <br />
@@ -39,7 +39,7 @@ class Projects extends React.Component {
                             <ImageGallery items={images2} showFullscreenButton={false} showThumbnails={false} showPlayButton={false} />
                         </div>
                         <a href="https://ridehail.herokuapp.com/" target="_blank" rel="noopener noreferrer">
-                            <div className="ui violet tag bottom right attached large label">Implemented with JavaScript, PHP, and MySQL</div>
+                            <div className="ui violet tag bottom right attached large label">Implemented with HTML, CSS, Bootstrap, JavaScript, PHP, and MySQL</div>
                         </a>
                     </div>
                 </div>
@@ -66,7 +66,7 @@ class Projects extends React.Component {
                     </div> 
                     <br />
                     <br />
-                    <div className="ui container raised segments" style={{width: "1200px"}}>
+                    <div className="ui container raised segments" style={{width: "1000px"}}>
                     <div className="ui segment">
                         <div className="ui container raised segment" id="101Animals">
                             <ImageGallery items={images} showFullscreenButton={false} showThumbnails={false} showPlayButton={false}/>
