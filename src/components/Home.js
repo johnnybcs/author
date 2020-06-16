@@ -186,10 +186,19 @@ class App extends React.Component {
                             <img className="ui fluid image" src="vehiclesCover.jpg" alt="cover" />
                         </div>
                     </div>
+                    <div className="row">
+                        <br />
+                        <br />
+                    </div>
                     <div className="centered row">
-                    <button onClick={this.onClickCar} style={{border: "none", outline: "none", background: "none"}}>
+                    <button onClick={this.onClickCar} style={{border: "none", outline: "none", background: "none", cursor: "pointer"}}>
                         <img id="car" className="ui rounded image" src="porsche.png" alt='content'  style={{height: "200px"}}/>
                     </button>
+                </div>
+                <br />
+                <div className="row">
+                    <br />
+                    <br />
                 </div>
                 </div>
                 <Footer />
