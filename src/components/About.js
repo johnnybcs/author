@@ -78,7 +78,7 @@ class About extends React.Component {
                         <div className="ui card">
                             <div className="aligned content" style={{paddingTop: "150px"}}>
                                 <button onClick={this.onClickCar} style={{border: "none", outline: "none", background: "none"}}>
-                                    <img id="car" className="ui rounded image" src="car.png" alt='content'  style={{height: "170px"}}/>
+                                    <img id="car" className="ui rounded image" src="car.png" alt='content'  style={{height: "170px", cursor: "pointer"}}/>
                                 </button>
                             </div>
                         </div>
@@ -154,7 +154,7 @@ class About extends React.Component {
                         <div className="ui card">
                             <div className="aligned content" style={{paddingTop: "200px"}}>
                                 <button onClick={this.onClickRocket} style={{border: "none", outline: "none", background: "none"}}>
-                                    <img id="rocket" className="ui rounded image" src="rocket.png" alt='content' style={{height: "140px"}} />
+                                    <img id="rocket" className="ui rounded image" src="rocket.png" alt='content' style={{height: "140px", cursor: "pointer"}} />
                                 </button>
                             </div>
                             <br />
