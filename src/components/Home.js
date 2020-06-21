@@ -39,6 +39,7 @@ class App extends React.Component {
             <div>
                 <Navigation />
                 <br />
+                <br />
                 <div className="ui grid">
                     <div className="row">
                         <div className="ui container raised segment" id="101Animals" style={{width: "700px"}}>
@@ -56,6 +57,7 @@ class App extends React.Component {
                         </div>
                     </div>
                     <div className="row">
+                        <br />
                         <br />
                         <br />
                     </div>
@@ -122,6 +124,7 @@ class App extends React.Component {
                     <div className="row">
                         <br />
                         <br />
+                        <br />
                     </div>
                     <div className="row">
                         <br />
@@ -131,6 +134,7 @@ class App extends React.Component {
                         </div>
                     </div>
                     <div className="row">
+                        <br />
                         <br />
                         <br />
                     </div>
@@ -159,6 +163,7 @@ class App extends React.Component {
                     <div className="row">
                         <br />
                         <br />
+                        <br />
                     </div>
                     <div className="row">
                         <div className="ui container raised segment" id="nature" style={{width: "700px"}}>
@@ -167,6 +172,7 @@ class App extends React.Component {
                         </div>
                     </div>
                     <div className="row">
+                        <br />
                         <br />
                         <br />
                     </div>
@@ -179,6 +185,7 @@ class App extends React.Component {
                     <div className="row">
                         <br />
                         <br />
+                        <br />
                     </div>
                     <div className="row">
                         <div className="ui container raised segment" id="vehicles" style={{width: "700px"}}>
@@ -189,14 +196,15 @@ class App extends React.Component {
                     <div className="row">
                         <br />
                         <br />
+                        <br />
                     </div>
                     <div className="centered row">
                     <button onClick={this.onClickCar} style={{border: "none", outline: "none", background: "none", cursor: "pointer"}}>
                         <img id="car" className="ui rounded image" src="porsche.png" alt='content'  style={{height: "200px"}}/>
                     </button>
                 </div>
-                <br />
                 <div className="row">
+                    <br />
                     <br />
                     <br />
                 </div>

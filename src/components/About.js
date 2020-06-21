@@ -35,6 +35,7 @@ class About extends React.Component {
             <div>
                 <Navigation />
                 <br />
+                <br />
                 <div className="ui app">
                         <div className="ui card">
                             <img className="ui fluid rounded image" src="headShot.jpg" alt='author' />
@@ -59,6 +60,9 @@ class About extends React.Component {
                         </div>
                         <br />
                         <br />
+                        <br />
+                        <br />
+                        <br />
                         <div className="ui card">
                             <img className="ui fluid rounded image" src="SAP.png" alt='content' />
                             <div className="content" style={{textAlign: "center"}}>
@@ -75,6 +79,9 @@ class About extends React.Component {
                         </div>
                         <br />
                         <br />
+                        <br />
+                        <br />
+                        <br />
                         <div className="ui card">
                             <div className="aligned content" style={{paddingTop: "150px"}}>
                                 <button onClick={this.onClickCar} style={{border: "none", outline: "none", background: "none"}}>
@@ -84,6 +91,9 @@ class About extends React.Component {
                         </div>
                         <br />
                         <br />
+                        <br />
+                        <br />
+                        <br />
                         <div className="ui card">
                             <ImageGallery items={images} showFullscreenButton={false} showThumbnails={false} 
                             showPlayButton={false} showNav={false} autoPlay={true} slideInterval={2000} />
@@ -91,6 +101,9 @@ class About extends React.Component {
                                 <div className="ui header">Professional Certifications</div>
                             </div>
                         </div>
+                        <br />
+                        <br />
+                        <br />
                         <br />
                         <br />
                         <div className="ui card">
@@ -149,6 +162,9 @@ class About extends React.Component {
                                 </div>
                             </div>
                         </div>
+                        <br />
+                        <br />
+                        <br />
                         <br />
                         <br />
                         <div className="ui card">
