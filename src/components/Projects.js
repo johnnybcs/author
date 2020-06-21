@@ -23,6 +23,9 @@ class Projects extends React.Component {
                 <Navigation />
                 <br />
                 <div className="app">
+                    <img className="rotate" src="astronaut.png" alt="astronaut" style={{width:"300px"}} />
+                    <br />
+                    <br />
                     <div className="ui container raised segments" style={{width: "1000px"}}>
                         <div className="ui segment">
                             <a href="https://prescriptiontranslator.herokuapp.com/" target="_blank" rel="noopener noreferrer">
@@ -31,6 +34,9 @@ class Projects extends React.Component {
                             <div className="ui red tag bottom right attached large label">Implemented with HTML, CSS, Bootstrap, JavaScript, PHP, and MySQL</div>
                         </div>
                     </div>
+                    <br />
+                    <br />
+                    <br />
                     <br />
                     <br />
                     <div className="ui container raised segments" style={{width: "1000px"}}>
@@ -43,6 +49,9 @@ class Projects extends React.Component {
                         </a>
                     </div>
                 </div>
+                <br />
+                <br />
+                <br />
                 <br />
                 <br />
                     <div className="ui container raised segments" style={{width: "1000px"}}>
@@ -66,6 +75,9 @@ class Projects extends React.Component {
                     </div> 
                     <br />
                     <br />
+                    <br />
+                    <br />
+                    <br />
                     <div className="ui container raised segments" style={{width: "1000px"}}>
                     <div className="ui segment">
                         <div className="ui container raised segment" id="101Animals">
@@ -77,6 +89,8 @@ class Projects extends React.Component {
                     </div>
                 </div>
                 </div>
+                <br />
+                <br />
                 <br />
                 <br />
                 <Footer />
