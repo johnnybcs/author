@@ -30,6 +30,22 @@ for (var l = 0; l < 4; l++) {
 }
 
 class App extends React.Component {
+    componentDidMount() {
+        window.$(".moveArea").mousemove(function(event) {
+            var eye = window.$(".eye");
+            var x = (eye.offset().left) + (eye.width() / 2);
+            var y = (eye.offset().top) + (eye.height() / 2);
+            var rad = Math.atan2(event.pageX - x, event.pageY - y);
+            var rot = (rad * (180 / Math.PI) * -1) + 180;
+            eye.css({
+            '-webkit-transform': 'rotate(' + rot + 'deg)',
+            '-moz-transform': 'rotate(' + rot + 'deg)',
+            '-ms-transform': 'rotate(' + rot + 'deg)',
+            'transform': 'rotate(' + rot + 'deg)'
+            });
+        });
+    }
+
     onClickCar = () => {
         window.$('#car').transition('shake').transition('fly left', '2000ms').transition('fly right', '2000ms');
     }
@@ -55,6 +71,23 @@ class App extends React.Component {
                                 Amazon Reviews
                             </a>
                         </div>
+                    </div>
+                    <div className="row">
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                    </div>
+                    <div className="row">
+                        <section class="moveArea">
+                            <div class='containerOwl'>
+                                <img src="owl.png" style={{zIndex: "-5", width: "200px", position: "absolute", left: "50%", marginTop: "-195px", marginLeft: "-100px"}} alt="owl" />
+                                <div class='eye' style={{position: "absolute", left: "50%", marginTop: "-133px", marginLeft: "20px"}}></div>
+                                <div class='eye' style={{position: "absolute", left: "50%", marginTop: "-133px", marginLeft: "-50px"}}></div>
+                            </div>
+                        </section>
                     </div>
                     <div className="row">
                         <br />
