@@ -81,11 +81,11 @@ class App extends React.Component {
                         <br />
                     </div>
                     <div className="row">
-                        <section class="moveArea">
-                            <div class='containerOwl'>
-                                <img unselectable="on" class="unselectable" src="owl.png" style={{zIndex: "-5", width: "200px", position: "absolute", left: "50%", marginTop: "-195px", marginLeft: "-100px"}} alt="owl" />
-                                <div class='eye' style={{position: "absolute", left: "50%", marginTop: "-133px", marginLeft: "20px"}}></div>
-                                <div class='eye' style={{position: "absolute", left: "50%", marginTop: "-133px", marginLeft: "-50px"}}></div>
+                        <section className="moveArea">
+                            <div className='containerOwl'>
+                                <img unselectable="on" className="unselectable" src="owl.png" style={{zIndex: "-5", width: "200px", position: "absolute", left: "50%", marginTop: "-195px", marginLeft: "-100px"}} alt="owl" />
+                                <div className='eye' style={{position: "absolute", left: "50%", marginTop: "-133px", marginLeft: "20px"}}></div>
+                                <div className='eye' style={{position: "absolute", left: "50%", marginTop: "-133px", marginLeft: "-50px"}}></div>
                             </div>
                         </section>
                     </div>
@@ -112,41 +112,41 @@ class App extends React.Component {
                         </div>
                     </div>
                     <div className="centered row" >
-                        <div class="ui four statistics" style={{width: "700px"}}>
-                            <div class="statistic">
-                                <div class="value">
+                        <div className="ui four statistics" style={{width: "700px"}}>
+                            <div className="statistic">
+                                <div className="value">
                                     212
                                 </div>
-                                <div class="label">
+                                <div className="label">
                                     Followers
                                 </div>
                             </div>
-                            <div class="statistic">
-                                <div class="text value">
+                            <div className="statistic">
+                                <div className="text value">
                                     Eighty
                                     <br />
                                     Thousand
                                 </div>
-                                <div class="label">
+                                <div className="label">
                                     Total Views
                                 </div>
                             </div>
-                            <div class="statistic">
-                                <div class="value">
-                                    <div class="ui rating">
-                                        <i class="large yellow icon" />
-                                        <i class="large yellow icon" />
-                                        <i class="large yellow icon" />
-                                        <i class="large yellow icon" />
-                                        <i class="large icon" />
+                            <div className="statistic">
+                                <div className="value">
+                                    <div className="ui rating">
+                                        <i className="large yellow icon" />
+                                        <i className="large yellow icon" />
+                                        <i className="large yellow icon" />
+                                        <i className="large yellow icon" />
+                                        <i className="large icon" />
                                     </div>
                                 </div>
-                                <div class="label">
+                                <div className="label">
                                     Overall Score
                                 </div>
                             </div>
-                            <div class="statistic">
-                            <div class="value">
+                            <div className="statistic">
+                            <div className="value">
                                 <a target="_blank" rel="noopener noreferrer" href="https://www.royalroad.com/fiction/18650/world-breaker">
                                     <img src="royalroad.png" alt="content" style={{width: "150px"}}></img>
                                 </a>

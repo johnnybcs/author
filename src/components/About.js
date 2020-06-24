@@ -107,14 +107,14 @@ class About extends React.Component {
                         <br />
                         <br />
                         <div className="ui card">
-                            <div class="ui people shape">
-                                <div class="sides">
-                                    <div class="side">
-                                        <div class="ui fluid card">
+                            <div className="ui people shape">
+                                <div className="sides">
+                                    <div className="side">
+                                        <div className="ui fluid card">
                                             <img className="ui fluid image" src="uofa.jpg" alt="content" />
-                                            <div class="content" style={{textAlign: "center"}}>
-                                                <div class="ui header" style={{fontSize: "17px"}}>The University of Alberta</div>
-                                                <div class="ui sub header" style={{fontSize: "13px", color: "#696969"}}>
+                                            <div className="content" style={{textAlign: "center"}}>
+                                                <div className="ui header" style={{fontSize: "17px"}}>The University of Alberta</div>
+                                                <div className="ui sub header" style={{fontSize: "13px", color: "#696969"}}>
                                                     Bachelor of Science in Psychology
                                                 </div>
                                                 <br />
@@ -123,12 +123,12 @@ class About extends React.Component {
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="side">
-                                        <div class="ui fluid card">
+                                    <div className="side">
+                                        <div className="ui fluid card">
                                             <img className="ui fluid image" src="uofa.jpg" alt="content" />
-                                            <div class="content" style={{textAlign: "center"}}>
-                                                <div class="ui header" style={{fontSize: "17px"}}>The University of Alberta</div>
-                                                <div class="ui sub header" style={{fontSize: "13px", color: "#696969"}}>
+                                            <div className="content" style={{textAlign: "center"}}>
+                                                <div className="ui header" style={{fontSize: "17px"}}>The University of Alberta</div>
+                                                <div className="ui sub header" style={{fontSize: "13px", color: "#696969"}}>
                                                     Doctor of Medicine
                                                 </div>
                                                 <br />
@@ -137,12 +137,12 @@ class About extends React.Component {
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="side active">
-                                        <div class="ui fluid card">
+                                    <div className="side active">
+                                        <div className="ui fluid card">
                                             <img className="ui fluid image" src="ubc.jpg" alt="content" />
-                                            <div class="content" style={{textAlign: "center"}}>
-                                                <div class="ui header" style={{fontSize: "17px"}}>The University of British Columbia</div>
-                                                <div class="ui sub header" style={{fontSize: "13px", color: "#696969"}}>
+                                            <div className="content" style={{textAlign: "center"}}>
+                                                <div className="ui header" style={{fontSize: "17px"}}>The University of British Columbia</div>
+                                                <div className="ui sub header" style={{fontSize: "13px", color: "#696969"}}>
                                                     Bachelor of Computer Science
                                                 </div>
                                                 <br />
@@ -154,11 +154,11 @@ class About extends React.Component {
                                 </div>
                             </div>
                             <div className="ui fluid buttons">
-                                <div class="ui blue button" onClick={this.onClickLeft}>
-                                    <i class="left long arrow icon"></i>
+                                <div className="ui blue button" onClick={this.onClickLeft}>
+                                    <i className="left long arrow icon"></i>
                                 </div>
-                                <div class="ui blue button" onClick={this.onClickRight}>
-                                    <i class="right long arrow icon"></i>
+                                <div className="ui blue button" onClick={this.onClickRight}>
+                                    <i className="right long arrow icon"></i>
                                 </div>
                             </div>
                         </div>
