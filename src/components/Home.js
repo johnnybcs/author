@@ -83,7 +83,7 @@ class App extends React.Component {
                     <div className="row">
                         <section class="moveArea">
                             <div class='containerOwl'>
-                                <img src="owl.png" style={{zIndex: "-5", width: "200px", position: "absolute", left: "50%", marginTop: "-195px", marginLeft: "-100px"}} alt="owl" />
+                                <img unselectable="on" class="unselectable" src="owl.png" style={{zIndex: "-5", width: "200px", position: "absolute", left: "50%", marginTop: "-195px", marginLeft: "-100px"}} alt="owl" />
                                 <div class='eye' style={{position: "absolute", left: "50%", marginTop: "-133px", marginLeft: "20px"}}></div>
                                 <div class='eye' style={{position: "absolute", left: "50%", marginTop: "-133px", marginLeft: "-50px"}}></div>
                             </div>
