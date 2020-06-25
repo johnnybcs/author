@@ -47,7 +47,7 @@ class Contact extends React.Component {
                                 <label>Comment</label>
                                 <textarea name="comment" rows="4" />
                             </div>
-                            <button className="ui primary button" onClick={this.submit} type="submit">Submit</button>
+                            <button className="ui primary button" onClick={this.submit} type="button">Submit</button>
                         </form>
                     </div>
                 </div>
