@@ -232,7 +232,7 @@ class App extends React.Component {
                         <br />
                     </div>
                     <div className="centered row">
-                    <button onClick={this.onClickCar} style={{border: "none", oasutline: "none", background: "none", cursor: "pointer"}}>
+                    <button onClick={this.onClickCar} style={{border: "none", outline: "none", background: "none", cursor: "pointer"}}>
                         <img id="car" className="ui rounded image" src={require("./assets/porsche.png")} alt='content'  style={{height: "130px"}}/>
                     </button>
                 </div>
