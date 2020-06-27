@@ -180,7 +180,7 @@ class App extends React.Component {
                     </div>
                     <div className="centered container row">
                         <div className="ui tiny images">
-                        <div className="ui purple large pointing below basic label">Available from these sellers</div><br/><br />
+                        <div className="ui purple large pointing below label">Available from these sellers</div><br/><br />
 
                             <a href="https://www.amazon.com/dp/B07G721HP3" target="_blank" rel="noopener noreferrer">
                                 <img src={require("./assets/logos/amazon.png")} alt="content" style={{marginLeft: "40px", marginRight: "30px"}}/>

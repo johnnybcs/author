@@ -7,6 +7,7 @@ class Navigation extends React.Component {
     render() {
         return (
             <div>
+            <br />
                 <div className="ui centered grid">
                     <div className="row">
                         <div className="navigation-title" id="top">Johnny Li</div>
@@ -14,22 +15,22 @@ class Navigation extends React.Component {
                     <div className="row">
                         <div className="ui text menu">
                             <div className="item">
-                                <NavLink exact to='/' className="nav-link" activeStyle={{textDecoration:"underline", color:"black"}}>
+                                <NavLink exact to='/' className="nav-link" activeStyle={{color:"black"}}>
                                     Books
                                 </NavLink>
                             </div>
                             <div className="item">
-                                <NavLink exact to='/about' className="nav-link" activeStyle={{textDecoration:"underline", color:"black"}}>
-                                    Bio
+                                <NavLink exact to='/about' className="nav-link" activeStyle={{color:"black"}}>
+                                    Biography
                                 </NavLink>
                             </div>
                             <div className="item">
-                                <NavLink exact to='/projects' className="nav-link" activeStyle={{textDecoration:"underline", color:"black"}}>
+                                <NavLink exact to='/projects' className="nav-link" activeStyle={{color:"black"}}>
                                     Projects
                                 </NavLink>
                             </div>
                             <div className="item">
-                                <NavLink exact to='/contact' className="nav-link" activeStyle={{textDecoration:"underline", color:"black"}}>
+                                <NavLink exact to='/contact' className="nav-link" activeStyle={{color:"black"}}>
                                     Contact
                                 </NavLink>
                             </div>
