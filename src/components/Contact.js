@@ -1,7 +1,6 @@
 import React from 'react';
 import Navigation from './Navigation';
 import Footer from './Footer';
-import Typical from 'react-typical';
 import axios from 'axios';
 import './style.css';
 
@@ -35,19 +34,10 @@ class Contact extends React.Component {
                 <Navigation />
                 <br />
                 <div className="app">
-                <button onClick={this.onClickSpeechBubble} style={{border: "none", outline: "none", background: "none"}}>
-                    <img id="speechBubble" className="ui image" src={require("./assets/speechBubble.png")} alt='content'  style={{height: "120px", cursor: "pointer"}}/>
-                </button>                   
-                    <h1 id="notification" className="ui huge header" style={{fontSize: "30px"}}>
-                        <Typical id="typical"
-                        steps={[
-                            'Questions?', 2000,
-                            'Drop me a line.', 1500,
-                        ]} 
-                        loop={1}
-                        wrapper="b"
-                        />
-                    </h1>
+                    <button onClick={this.onClickSpeechBubble} style={{border: "none", outline: "none", background: "none"}}>
+                        <img id="speechBubble" className="ui image" src={require("./assets/speechBubble.png")} alt='content'  style={{height: "120px", cursor: "pointer"}}/>
+                    </button>
+                    <h1>Leave a comment</h1>               
                     <div className="ui segment container" style={{textAlign: "left", width: "370px"}}>
                         <form id="form" className="ui form" style={{fontSize: "17px"}} action="" method="post">
                             <div className="field">
