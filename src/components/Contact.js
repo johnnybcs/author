@@ -1,64 +1,59 @@
 import React from 'react';
-
 import Navigation from './Navigation';
+import Footer from './Footer';
 import Typical from 'react-typical';
-
-import {SpeechBubble} from 'react-kawaii';
-
 import './style.css';
 
-const DEFAULT_MOOD = 'happy';
-
 class Contact extends React.Component {
-    state = {
-        mood: DEFAULT_MOOD
-    };
-
-    componentDidMount() {
-        this.setState({mood: DEFAULT_MOOD});
+    submit = () => {
+        document.getElementById("notification").innerHTML = "Submitted!";
+        document.getElementById("form").reset();
     }
 
-    onClick = () => {
-        if (this.state.mood !== 'shocked') {
-            this.setState({mood: 'shocked'});
-        } else {
-            this.setState({mood: DEFAULT_MOOD});
-        }
-    }
-
-    onMouseEnter = () => {
-        this.setState({mood: 'blissful'});
-    }
-
-    onMouseLeave = () => {
-        this.setState({mood: DEFAULT_MOOD});
+    onClickSpeechBubble = () => {
+        window.$('#speechBubble').transition('jiggle').transition('tada');
     }
 
     render() {
         return (
             <div>
                 <Navigation />
-                <div className="app background-contact">
-                    <br />
-                    <div onClick={this.onClick} onMouseEnter={this.onMouseEnter} onMouseLeave={this.onMouseLeave}>
-                        <SpeechBubble size={300} mood={this.state.mood} color="#83D1FB" text="Hello!" />
-                    </div>
-                    <br />
-                    <div className="contact-title">
-                        <Typical
-                            steps={[
-                                'Hello', 1000
-                            ]} 
-                            loop="1"
-                            wrapper="b"
+                <br />
+                <div className="app">
+                <button onClick={this.onClickSpeechBubble} style={{border: "none", outline: "none", background: "none"}}>
+                    <img id="speechBubble" className="ui image" src="speechBubble.png" alt='content'  style={{height: "120px", cursor: "pointer"}}/>
+                </button>                   
+                    <h1 id="notification" className="ui huge header" style={{fontSize: "30px"}}>
+                        <Typical id="typical"
+                        steps={[
+                            'Questions?', 2000,
+                            'Drop me a line.', 1500,
+                        ]} 
+                        loop={1}
+                        wrapper="b"
                         />
+                    </h1>
+                    <div className="ui segment container" style={{textAlign: "left", width: "370px"}}>
+                        <form id="form" className="ui form" style={{fontSize: "17px"}} action="" method="post">
+                            <div className="field">
+                                <label>Name</label>
+                                <input type="text" name="name" placeholder="Name" />
+                            </div>
+                            <div className="field">
+                                <label>Email</label>
+                                <input type="text" name="email" placeholder="Email" />
+                            </div>
+                            <div className="field">
+                                <label>Comment</label>
+                                <textarea name="comment" rows="4" />
+                            </div>
+                            <button className="ui primary button" onClick={this.submit} type="button">Submit</button>
+                        </form>
                     </div>
-                    <br />
-                    <br />
-                    <br />
-                    <h1>Questions? Drop me a line</h1>
-                    <a href = "mailto:johnny@alumni.ubc.ca">johnny@alumni.ubc.ca</a>
                 </div>
+                <br />
+                <br />
+                <Footer />
             </div>
         );
     }

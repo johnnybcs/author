@@ -7,35 +7,34 @@ class Navigation extends React.Component {
     render() {
         return (
             <div>
-                <div className="navigation-title">Johnny Li</div>
-                <div className="ui three column grid navigation">
-                    <div className="column" />
-                    <div className="ui five column grid">
-                        <div className="column" />
-                        <div className="column">
-                            <div className="pad">
+                <div className="ui centered grid">
+                    <div className="row">
+                        <div className="navigation-title" id="top">Johnny Li</div>
+                    </div>
+                    <div className="row">
+                        <div className="ui text menu">
+                            <div className="item">
                                 <NavLink exact to='/' className="nav-link" activeStyle={{textDecoration:"underline", color:"black"}}>
-                                    Home
+                                    Books
                                 </NavLink>
                             </div>
-                        </div>
-                        <div className="column">
-                            <div className="pad">
+                            <div className="item">
                                 <NavLink exact to='/about' className="nav-link" activeStyle={{textDecoration:"underline", color:"black"}}>
-                                    About
+                                    Bio
                                 </NavLink>
                             </div>
-                        </div>
-                        <div className="column">
-                            <div className="pad">
+                            <div className="item">
+                                <NavLink exact to='/projects' className="nav-link" activeStyle={{textDecoration:"underline", color:"black"}}>
+                                    Projects
+                                </NavLink>
+                            </div>
+                            <div className="item">
                                 <NavLink exact to='/contact' className="nav-link" activeStyle={{textDecoration:"underline", color:"black"}}>
                                     Contact
                                 </NavLink>
                             </div>
                         </div>
-                        <div className="column" />
                     </div>
-                    <div className="column" />
                 </div>
             </div>
         );
