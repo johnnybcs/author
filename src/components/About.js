@@ -7,7 +7,7 @@ import './style.css';
 
 var images = [];
 for (var i = 0; i < 3; i++) {
-    var pagePath = './pages5/p' + i.toString() + '.png';
+    var pagePath = require('./assets/pages5/p' + i.toString() + '.png');
     images.push({ original: pagePath, thumbnail: pagePath });
 }
 
@@ -38,7 +38,7 @@ class About extends React.Component {
                 <br />
                 <div className="ui app">
                         <div className="ui card">
-                            <img className="ui fluid rounded image" src="headShot.jpg" alt='author' />
+                            <img className="ui fluid rounded image" src={require("./assets/headShot.jpg")} alt='author' />
                             <div className="content" style={{textAlign: "center"}}>
                                 <div className="header-text">
                                     Hi, I'm Johnny
@@ -64,7 +64,7 @@ class About extends React.Component {
                         <br />
                         <br />
                         <div className="ui card">
-                            <img className="ui fluid rounded image" src="SAP.png" alt='content' />
+                            <img className="ui fluid rounded image" src={require("./assets/SAP.png")} alt='content' />
                             <div className="content" style={{textAlign: "center"}}>
                                 <div className="ui large header">Agile Developer Intern</div>
                                 <div className="ui header" style={{color: "#696969"}}>SAP Analytics Cloud</div>
@@ -85,7 +85,7 @@ class About extends React.Component {
                         <div className="ui card">
                             <div className="aligned content" style={{paddingTop: "150px"}}>
                                 <button onClick={this.onClickCar} style={{border: "none", outline: "none", background: "none"}}>
-                                    <img id="car" className="ui rounded image" src="car.png" alt='content'  style={{height: "170px", cursor: "pointer"}}/>
+                                    <img id="car" className="ui rounded image" src={require("./assets/car.png")} alt='content'  style={{height: "170px", cursor: "pointer"}}/>
                                 </button>
                             </div>
                         </div>
@@ -111,7 +111,7 @@ class About extends React.Component {
                                 <div className="sides">
                                     <div className="side">
                                         <div className="ui fluid card">
-                                            <img className="ui fluid image" src="uofa.jpg" alt="content" />
+                                            <img className="ui fluid image" src={require("./assets/uofa.jpg")} alt="content" />
                                             <div className="content" style={{textAlign: "center"}}>
                                                 <div className="ui header" style={{fontSize: "17px"}}>The University of Alberta</div>
                                                 <div className="ui sub header" style={{fontSize: "13px", color: "#696969"}}>
@@ -125,7 +125,7 @@ class About extends React.Component {
                                     </div>
                                     <div className="side">
                                         <div className="ui fluid card">
-                                            <img className="ui fluid image" src="uofa.jpg" alt="content" />
+                                            <img className="ui fluid image" src={require("./assets/uofa.jpg")} alt="content" />
                                             <div className="content" style={{textAlign: "center"}}>
                                                 <div className="ui header" style={{fontSize: "17px"}}>The University of Alberta</div>
                                                 <div className="ui sub header" style={{fontSize: "13px", color: "#696969"}}>
@@ -139,7 +139,7 @@ class About extends React.Component {
                                     </div>
                                     <div className="side active">
                                         <div className="ui fluid card">
-                                            <img className="ui fluid image" src="ubc.jpg" alt="content" />
+                                            <img className="ui fluid image" src={require("./assets/ubc.jpg")} alt="content" />
                                             <div className="content" style={{textAlign: "center"}}>
                                                 <div className="ui header" style={{fontSize: "17px"}}>The University of British Columbia</div>
                                                 <div className="ui sub header" style={{fontSize: "13px", color: "#696969"}}>
@@ -170,7 +170,7 @@ class About extends React.Component {
                         <div className="ui card">
                             <div className="aligned content" style={{paddingTop: "200px"}}>
                                 <button onClick={this.onClickRocket} style={{border: "none", outline: "none", background: "none"}}>
-                                    <img id="rocket" className="ui rounded image" src="rocket.png" alt='content' style={{height: "140px", cursor: "pointer"}} />
+                                    <img id="rocket" className="ui rounded image" src={require("./assets/rocket.png")} alt='content' style={{height: "140px", cursor: "pointer"}} />
                                 </button>
                             </div>
                             <br />

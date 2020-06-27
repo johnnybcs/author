@@ -36,7 +36,7 @@ class Contact extends React.Component {
                 <br />
                 <div className="app">
                 <button onClick={this.onClickSpeechBubble} style={{border: "none", outline: "none", background: "none"}}>
-                    <img id="speechBubble" className="ui image" src="speechBubble.png" alt='content'  style={{height: "120px", cursor: "pointer"}}/>
+                    <img id="speechBubble" className="ui image" src={require("./assets/speechBubble.png")} alt='content'  style={{height: "120px", cursor: "pointer"}}/>
                 </button>                   
                     <h1 id="notification" className="ui huge header" style={{fontSize: "30px"}}>
                         <Typical id="typical"

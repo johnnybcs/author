@@ -6,13 +6,13 @@ import './style.css';
 
 var images = [];
 for (var i = 0; i < 4; i++) {
-    var pagePath = './pages4/p' + i.toString() + '.jpg';
+    var pagePath = require('./assets/pages4/p' + i.toString() + '.jpg');
     images.push({ original: pagePath, thumbnail: pagePath });
 }
 
 var images2 = [];
 for (var j = 0; j < 10; j++) {
-    var pagePath2 = './pages8/p' + j.toString() + '.png';
+    var pagePath2 = require('./assets/pages8/p' + j.toString() + '.png');
     images2.push({ original: pagePath2, thumbnail: pagePath2 });
 }
 
@@ -23,13 +23,13 @@ class Projects extends React.Component {
                 <Navigation />
                 <br />
                 <div className="app">
-                    <img className="rotate" src="astronaut.png" alt="astronaut" style={{width:"300px"}} />
+                    <img className="rotate" src={require("./assets/astronaut.png")} alt="astronaut" style={{width:"300px"}} />
                     <br />
                     <br />
                     <div className="ui container raised segments" style={{width: "1000px"}}>
                         <div className="ui segment">
                             <a href="https://prescriptiontranslator.herokuapp.com/" target="_blank" rel="noopener noreferrer">
-                                <img className="ui fluid image" src="prescriptionTranslator.png" alt="screenshot" />
+                                <img className="ui fluid image" src={require("./assets/prescriptionTranslator.png")} alt="screenshot" />
                             </a>
                             <div className="ui red tag bottom right attached large label">Implemented with HTML, CSS, Bootstrap, JavaScript, PHP, and MySQL</div>
                         </div>
@@ -62,10 +62,10 @@ class Projects extends React.Component {
                                     </div>
                                     <div className="middle aligned row">
                                         <div className="column">
-                                            <img className="ui huge image" src="medicalDiagnosisSystem1.png" alt="screenshot" />
+                                            <img className="ui huge image" src={require("./assets/medicalDiagnosisSystem1.png")} alt="screenshot" />
                                         </div>
                                         <div className="column">
-                                            <img className="ui huge image" src="medicalDiagnosisSystem2.png" alt="screenshot" />
+                                            <img className="ui huge image" src={require("./assets/medicalDiagnosisSystem2.png")} alt="screenshot" />
                                         </div>
                                         <div className="ui blue tag bottom right attached large label">Implemented with Java and JavaFX</div>
                                     </div>
