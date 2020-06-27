@@ -4,6 +4,7 @@ const express = require("express");
 const mongoose = require("mongoose");
 const bodyParser = require("body-parser");
 const cors = require("cors");
+const path = require("path");
 
 // Setup express app
 const app = express();
@@ -17,6 +18,12 @@ app.use(
 app.use(bodyParser.json());
 
 app.use(cors());
+
+app.use(express.static(path.join(__dirname, 'build')));
+
+app.get('/*', (req, res) => {
+  res.sendFile(path.join(__dirname, 'build', 'index.html'));
+});
 
 // Configure Mongo
 const db = "mongodb://localhost:27017/author";
