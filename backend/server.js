@@ -26,7 +26,7 @@ app.get('/*', (req, res) => {
 });
 
 // Configure Mongo
-const db = "mongodb://heroku_r0s7djxz:rlhcl2bo65h1otbd18474jn80v@ds129484.mlab.com:29484/heroku_r0s7djxz";
+const db = process.env.MONGODB_URI;
 
 // Connect to Mongo with Mongoose
 mongoose
