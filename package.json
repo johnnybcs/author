@@ -44,6 +44,5 @@
   "devDependencies": {
     "gh-pages": "^2.2.0",
     "react-kawaii": "^0.14.4"
-  },
-  "proxy": "http://localhost:5000"
+  }
 }
