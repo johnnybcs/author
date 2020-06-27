@@ -2,21 +2,23 @@
 @import url('https://fonts.googleapis.com/css?family=Beth+Ellen');
 @import url('https://fonts.googleapis.com/css?family=Bebas+Neue');
 @import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css2?family=Schoolbell');
 
 a {
-    color: #00006f;
+    color: #000000;
     font-size: 20px;
     font-weight: bold;
 }
 
 .nav-link {
-    font-family: 'Bebas Neue';
+    font-family: 'Schoolbell';
     font-size: 30px;
-    color: #6e6e6e;
+    color: #5D6D7E;
+    padding: 15px 20px 10px 20px;
 }
 
 a.nav-link:hover {
-    color: #383838;
+    color: #000000;
 }
 
 .app {
@@ -72,7 +74,7 @@ a.nav-link:hover {
 .navigation-title {
     padding: 30px 0px 10px 0px;
     font-family: 'Beth Ellen';
-    font-size: 50px;
+    font-size: 55px;
     color: black;
     text-align: center;
 
@@ -95,14 +97,14 @@ a.nav-link:hover {
     }
   }
 
-  #background {
+  /* #background {
     position: fixed;
     left: 0;
     top: 0;
     min-width: 100%;
     min-height: 100%;
     z-index: -5;
-  }
+  } */
 
   .moveArea {
     width: 10vw;
@@ -137,3 +139,25 @@ a.nav-link:hover {
     -ms-user-select: none;
     user-select: none;
  }
+
+ html {
+  overflow: hidden;
+ }
+
+ /* #colors {
+  background: linear-gradient(-45deg, #56ab2f, #a8e063, #a1c4fd, #045DE9);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+      background-position: 0% 50%;
+  }
+  50% {
+      background-position: 100% 50%;
+  }
+  100% {
+      background-position: 0% 50%;
+  }
+} */
