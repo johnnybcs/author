@@ -12,18 +12,15 @@ for (var i = 0; i < 3; i++) {
 }
 
 class About extends React.Component {
-    onClickLeft = () => {
-        window.$('.shape').shape();
-        window.$('.shape').shape('flip left');
-    }
-
-    onClickRight = () => {
-        window.$('.shape').shape();
-        window.$('.shape').shape('flip right');
+    componentDidMount() {
+        setInterval(function(){
+            window.$('.shape').shape();
+            window.$('.shape').shape('flip right');
+        }, 3000);
     }
 
     onClickCar = () => {
-        window.$('#car').transition('bounce').transition('fly right', '2000ms').transition('fly left', '2000ms');
+        window.$('#car').transition('bounce').transition('shake').transition('fly right', '2000ms').transition('fly left', '2000ms');
     }
 
     onClickRocket = () => {
@@ -83,10 +80,10 @@ class About extends React.Component {
                         <br />
                         <br />
                         <div className="ui card">
-                            <div className="aligned content" style={{paddingTop: "150px"}}>
-                                <button onClick={this.onClickCar} style={{border: "none", outline: "none", background: "none"}}>
-                                    <img id="car" className="ui rounded image" src={require("./assets/car.png")} alt='content'  style={{height: "170px", cursor: "pointer"}}/>
-                                </button>
+                            <ImageGallery items={images} showFullscreenButton={false} showThumbnails={false} 
+                            showPlayButton={false} showNav={false} autoPlay={true} slideInterval={3000} />
+                            <div className="content" style={{textAlign: "center"}}>
+                                <div className="ui header">Professional Certifications</div>
                             </div>
                         </div>
                         <br />
@@ -95,12 +92,13 @@ class About extends React.Component {
                         <br />
                         <br />
                         <div className="ui card">
-                            <ImageGallery items={images} showFullscreenButton={false} showThumbnails={false} 
-                            showPlayButton={false} showNav={false} autoPlay={true} slideInterval={2000} />
-                            <div className="content" style={{textAlign: "center"}}>
-                                <div className="ui header">Professional Certifications</div>
+                            <div className="aligned content" style={{paddingTop: "150px"}}>
+                                <button onClick={this.onClickCar} style={{border: "none", outline: "none", background: "none"}}>
+                                    <img id="car" className="ui rounded image" src={require("./assets/car.png")} alt='content'  style={{height: "170px", cursor: "pointer"}}/>
+                                </button>
                             </div>
                         </div>
+                        <br />
                         <br />
                         <br />
                         <br />
@@ -151,14 +149,6 @@ class About extends React.Component {
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                            </div>
-                            <div className="ui fluid buttons">
-                                <div className="ui blue button" onClick={this.onClickLeft}>
-                                    <i className="left long arrow icon"></i>
-                                </div>
-                                <div className="ui blue button" onClick={this.onClickRight}>
-                                    <i className="right long arrow icon"></i>
                                 </div>
                             </div>
                         </div>

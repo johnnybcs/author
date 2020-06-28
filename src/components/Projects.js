@@ -17,15 +17,41 @@ for (var j = 0; j < 10; j++) {
 }
 
 class Projects extends React.Component {
+    componentDidMount() {
+        window.$(".moveArea").mousemove(function(event) {
+            var eye = window.$(".eye");
+            var x = (eye.offset().left) + (eye.width() / 2);
+            var y = (eye.offset().top) + (eye.height() / 2);
+            var rad = Math.atan2(event.pageX - x, event.pageY - y);
+            var rot = (rad * (180 / Math.PI) * -1) + 180;
+            eye.css({
+            '-webkit-transform': 'rotate(' + rot + 'deg)',
+            '-moz-transform': 'rotate(' + rot + 'deg)',
+            '-ms-transform': 'rotate(' + rot + 'deg)',
+            'transform': 'rotate(' + rot + 'deg)'
+            });
+        });
+    }
+
     render() {
         return (
             <div>
                 <Navigation />
                 <br />
                 <div className="app">
-                    <img className="rotate" src={require("./assets/astronaut.png")} alt="astronaut" style={{width:"300px"}} />
                     <br />
                     <br />
+                    <br />
+                    <br />
+                    <div className="row">
+                        <section className="moveArea">
+                            <div className='containerOwl'>
+                                <img unselectable="on" className="unselectable" src={require("./assets/owl.png")} style={{position: "absolute", zIndex: "-5", width: "150px", left: "50%", marginTop: "-120px", marginLeft: "-70px"}} alt="owl" />
+                                <div className='eye' style={{left: "50%", marginTop: "-75px", marginLeft: "-34px"}}></div>
+                                <div className='eye' style={{left: "50%", marginTop: "-75px", marginLeft: "20px"}}></div>
+                            </div>
+                        </section>
+                    </div>                    
                     <div className="ui container raised segments" style={{width: "1000px"}}>
                         <div className="ui segment">
                             <a href="https://prescriptiontranslator.herokuapp.com/" target="_blank" rel="noopener noreferrer">
