@@ -12,11 +12,20 @@ for (var i = 0; i < 3; i++) {
 }
 
 class About extends React.Component {
+    constructor(props) {
+        super(props);
+        this.shapeInterval = null;
+      }
+
     componentDidMount() {
-        setInterval(function(){
+        this.shapeInterval = setInterval(function(){
             window.$('.shape').shape();
             window.$('.shape').shape('flip right');
         }, 3000);
+    }
+
+    componentWillUnmount(){
+        this.shapeInterval = clearInterval(this.shapeInterval);
     }
 
     onClickCar = () => {
