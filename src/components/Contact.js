@@ -33,12 +33,13 @@ class Contact extends React.Component {
             <div>
                 <Navigation />
                 <br />
+                <br />
                 <div className="app">
                     <button onClick={this.onClickSpeechBubble} style={{border: "none", outline: "none", background: "none"}}>
                         <img id="speechBubble" className="ui image" src={require("./assets/speechBubble.png")} alt='content'  style={{height: "120px", cursor: "pointer"}}/>
                     </button>
                     <h1 id="notification">Leave a comment</h1>               
-                    <div className="ui segment container" style={{textAlign: "left", width: "370px"}}>
+                    <div className="ui segment container" style={{textAlign: "left", width: "400px"}}>
                         <form id="form" className="ui form" style={{fontSize: "17px"}} action="" method="post">
                             <div className="field">
                                 <label>Name</label>
