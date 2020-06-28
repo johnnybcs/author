@@ -155,18 +155,16 @@ class App extends React.Component {
                         </div>
                     </div>
                     <div className="row">
-                        <br />
-                        <br />
-                        <br />
+                        <img src={require("./assets/paint.png")} alt="paint" style={{margin: "auto", width: "80vw"}} ></img>
                     </div>
                     <div className="row">
-                        <br />
                         <div className="ui container raised segment" id="namesOfFruitsAndVegetables" style={{width: "700px"}}>
                             <a className="ui blue ribbon large label" target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/dp/B07GDCXYZ6">Names of Fruits and Vegetables</a>
                             <ImageGallery items={images2}  showFullscreenButton={false} showThumbnails={false} showPlayButton={false}/>
                         </div>
                     </div>
                     <div className="row">
+                        <br />
                         <br />
                         <br />
                         <br />
