@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a2863ae29de38358d50121511b3a24dd",
+    "revision": "61439bf71d7c0c7b23c95a839f88ca0e",
     "url": "/index.html"
   },
   {
-    "revision": "80af8a9c729bcf3b5c47",
+    "revision": "de13c78d7c64cb21a96b",
     "url": "/static/css/2.0c0ff6f0.chunk.css"
   },
   {
-    "revision": "ce3c388336dde58d4eee",
-    "url": "/static/css/main.0e1b9055.chunk.css"
+    "revision": "8b6d6566ab27dc0a6575",
+    "url": "/static/css/main.12c1e3f6.chunk.css"
   },
   {
-    "revision": "80af8a9c729bcf3b5c47",
-    "url": "/static/js/2.3866798d.chunk.js"
+    "revision": "de13c78d7c64cb21a96b",
+    "url": "/static/js/2.cb9c1ee0.chunk.js"
   },
   {
     "revision": "280b48dbc3281f342da16f66e41cf46c",
-    "url": "/static/js/2.3866798d.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.cb9c1ee0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ce3c388336dde58d4eee",
-    "url": "/static/js/main.b76d4ae0.chunk.js"
+    "revision": "8b6d6566ab27dc0a6575",
+    "url": "/static/js/main.54da1247.chunk.js"
   },
   {
     "revision": "702554416a81a1e3a894",
@@ -30,18 +30,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "bd62064d37fcc4a6d49cb910a660ab13",
     "url": "/static/media/SAP.bd62064d.png"
-  },
-  {
-    "revision": "e9fd8c72ac1d7dc797fbbe07823a4ba3",
-    "url": "/static/media/amazon.e9fd8c72.png"
-  },
-  {
-    "revision": "466d70630fc7333f1f59dfd79d0cb2f4",
-    "url": "/static/media/apple.466d7063.png"
-  },
-  {
-    "revision": "4f8d47f1f3e5729b4cfc56a00db3ec1b",
-    "url": "/static/media/astronaut.4f8d47f1.png"
   },
   {
     "revision": "ec5e7062f23911a25c4412045786c6cd",
@@ -60,20 +48,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/headShot.f9033f3b.jpg"
   },
   {
-    "revision": "ebd97f0b06a19b060e74a6260297e28e",
-    "url": "/static/media/kobo.ebd97f0b.png"
-  },
-  {
     "revision": "f431abc83f13f38f9b51cdf86b26a6e9",
     "url": "/static/media/medicalDiagnosisSystem1.f431abc8.png"
   },
   {
     "revision": "badf6ea0f30f9f2d37c901cca4ee0738",
     "url": "/static/media/medicalDiagnosisSystem2.badf6ea0.png"
-  },
-  {
-    "revision": "666ddc3dd0aa1517aa649d6aae588447",
-    "url": "/static/media/natureCover.666ddc3d.jpg"
   },
   {
     "revision": "0f2c287994126356d3b2d56615f4d6b4",
@@ -404,20 +384,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/p9.d7947067.png"
   },
   {
-    "revision": "304fde513a6ce666dd8e71a8fd95f281",
-    "url": "/static/media/paint.304fde51.png"
-  },
-  {
-    "revision": "407b1fa188d0a8b72bab842e6e8c8b55",
-    "url": "/static/media/porsche.407b1fa1.png"
-  },
-  {
     "revision": "21983b6c826e18a7e89988410bcc19f3",
     "url": "/static/media/prescriptionTranslator.21983b6c.png"
   },
   {
     "revision": "58b4cec97e2addef3497dfbe7e349510",
     "url": "/static/media/rocket.58b4cec9.png"
+  },
+  {
+    "revision": "b8203e583a5ea31f3490b1175fa00b66",
+    "url": "/static/media/royalRoadReviews.b8203e58.png"
   },
   {
     "revision": "8a6d7ba3f5ba4fdcf2b9239b1297e54f",
@@ -428,20 +404,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/speechBubble.601e2413.png"
   },
   {
-    "revision": "d3653b076b0b0ad114b0369cbfcd64d5",
-    "url": "/static/media/thingsThatMoveCover.d3653b07.jpg"
-  },
-  {
     "revision": "4a4177d6a8b62e5c6f112af5a0b40fd2",
     "url": "/static/media/ubc.4a4177d6.jpg"
   },
   {
     "revision": "ab9166386d6f1b764cd90dbd9b87cb2a",
     "url": "/static/media/uofa.ab916638.jpg"
-  },
-  {
-    "revision": "0b2cae4e5b52b6f4bd52d4ae78876588",
-    "url": "/static/media/vehiclesCover.0b2cae4e.jpg"
   },
   {
     "revision": "7a18a65503db2d58ea3cde63308a02d4",
