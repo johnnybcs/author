@@ -19,7 +19,8 @@ class Contact extends React.Component {
     }
 
     submit = (event) => {
-        axios.post('http://localhost:5000/comment', {name: this.state.name, email: this.state.email, comment: this.state.comment}).then(res => {console.log(res); console.log(res.data);});
+        const PORT = process.env.PORT || 5000;
+        axios.post('http://0.0.0.0:' + PORT + '/comment', {name: this.state.name, email: this.state.email, comment: this.state.comment}).then(res => {console.log(res); console.log(res.data);});
         document.getElementById("notification").innerHTML = "Submitted!";
         document.getElementById("form").reset();
     }
