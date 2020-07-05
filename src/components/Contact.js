@@ -20,7 +20,7 @@ class Contact extends React.Component {
     }
 
     submit = (event) => {
-        axios.post(path.join(__dirname, 'build', '/comment'), {name: this.state.name, email: this.state.email, comment: this.state.comment}).then(res => {console.log(res); console.log(res.data);});
+        axios.post(path.join('/comment'), {name: this.state.name, email: this.state.email, comment: this.state.comment}).then(res => {console.log(res); console.log(res.data);});
         document.getElementById("notification").innerHTML = "Submitted!";
         document.getElementById("form").reset();
     }
