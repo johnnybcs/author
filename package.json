@@ -19,6 +19,7 @@
     "typescript": "^3.9.3"
   },
   "scripts": {
+    "startdev": "react-scripts start",
     "heroku-prebuild": "cd backend && npm install",
     "start": "node backend/server.js",
     "build": "react-scripts build",
