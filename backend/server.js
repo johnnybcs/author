@@ -26,7 +26,7 @@ app.get('/*', (req, res) => {
 });
 
 // Configure Mongo
-const db = process.env.MONGODB_URI;
+const db = process.env.DB_URI;
 
 // Connect to Mongo with Mongoose
 mongoose
