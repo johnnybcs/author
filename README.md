@@ -1,5 +1,5 @@
 # Author Website
-https://johnnyli.herokuapp.com/
+https://johnnybcs.github.io/author/
 
 Implemented with React, jQuery, Semantic UI, Node, Express, and MongoDB
 
