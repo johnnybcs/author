@@ -73,10 +73,42 @@ class About extends React.Component {
                         <br />
                         <br />
                         <div className="ui card" style={{width: "400px"}}>
+                            <img className="ui fluid rounded image" src={require("./assets/bclc.png")} alt='content' />
+                            <div className="content" style={{textAlign: "center"}}>
+                                <div className="ui large header">Cyber Security Intern</div>
+                                <div className="ui header" style={{color: "#696969"}}>Security Team</div>
+                                <br />
+                                <br />
+                                <span className="" style={{fontSize: "17px"}}>May 2021 - Jan 2022</span>
+                            </div>
+                        </div>
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <div className="ui card" style={{width: "400px"}}>
+                            <img className="ui fluid rounded image" src={require("./assets/rogers.png")} alt='content' />
+                            <div className="content" style={{textAlign: "center"}}>
+                                <div className="ui large header">DevOps Engineer Intern</div>
+                                <div className="ui header" style={{color: "#696969"}}>HR and Corporate Systems Team</div>
+                                <br />
+                                <br />
+                                <span className="" style={{fontSize: "17px"}}>Jan 2021 - Apr 2021</span>
+                            </div>
+                        </div>
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <div className="ui card" style={{width: "400px"}}>
                             <img className="ui fluid rounded image" src={require("./assets/SAP.png")} alt='content' />
                             <div className="content" style={{textAlign: "center"}}>
                                 <div className="ui large header">Software Developer Intern</div>
-                                <div className="ui header" style={{color: "#696969"}}>SAP Analytics Cloud - Infrastructure Team</div>
+                                <div className="ui header" style={{color: "#696969"}}>SAP Analytics Cloud Infrastructure Team</div>
                                 <br />
                                 <br />
                                 <span className="" style={{fontSize: "17px"}}>Sep 2019 - Apr 2020</span>
@@ -137,7 +169,7 @@ class About extends React.Component {
                                             <div className="content" style={{textAlign: "center"}}>
                                                 <div className="ui large header">The University of Alberta</div>
                                                 <div className="ui header" style={{color: "#696969"}}>
-                                                    Doctor of Medicine
+                                                    Doctor of Medicine 
                                                 </div>
                                                 <br />
                                                 <br />
@@ -155,7 +187,7 @@ class About extends React.Component {
                                                 </div>
                                                 <br />
                                                 <br />
-                                                <span className="d" style={{fontSize: "17px"}}>Graduating Apr 2021</span>
+                                                <span className="d" style={{fontSize: "17px"}}>Graduating May 2022</span>
                                             </div>
                                         </div>
                                     </div>
