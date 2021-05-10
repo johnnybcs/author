@@ -2,21 +2,23 @@
 @import url('https://fonts.googleapis.com/css?family=Beth+Ellen');
 @import url('https://fonts.googleapis.com/css?family=Bebas+Neue');
 @import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css2?family=Schoolbell');
 
 a {
-    color: #00006f;
+    color: #000000;
     font-size: 20px;
     font-weight: bold;
 }
 
 .nav-link {
-    font-family: 'Bebas Neue';
+    font-family: 'Schoolbell';
     font-size: 30px;
-    color: #6e6e6e;
+    color: #5D6D7E;
+    padding: 15px 10px 10px 10px;
 }
 
 a.nav-link:hover {
-    color: #383838;
+    color: #000000;
 }
 
 .app {
@@ -49,12 +51,12 @@ a.nav-link:hover {
 }
 
 .description {
-    font-size: 20px;
+    font-size: 22px;
     font-family: 'Roboto', sans-serif;
 }
 
 .header-text {
-    font-size: 20px;
+    font-size: 25px;
     font-weight: bold;
     font-family: 'Roboto', sans-serif;
 }
@@ -72,7 +74,7 @@ a.nav-link:hover {
 .navigation-title {
     padding: 30px 0px 10px 0px;
     font-family: 'Beth Ellen';
-    font-size: 50px;
+    font-size: 55px;
     color: black;
     text-align: center;
 
@@ -95,36 +97,28 @@ a.nav-link:hover {
     }
   }
 
-  #background {
-    position: fixed;
-    left: 0;
-    top: 0;
-    min-width: 100%;
-    min-height: 100%;
-    z-index: -5;
-  }
-
   .moveArea {
-    width: 10vw;
-    height: 10vh;
-    padding: 10% 45%;
+    width: 100vw;
+    height: 30vh;
+    padding: 5% 5%;
   }
   .containerOwl {
     width: 100%;
+    position: relative;
   }
   .eye {
     position: absolute;
     border-radius: 50%;
-    height: 30px;
-    width: 30px;
-    background: #fcf75e;
+    height: 27px;
+    width: 27px;
+    background: #ffe033;
   }
   .eye:after { /*pupil*/
     position: absolute;
-    bottom: 17px;
+    bottom: 10px;
     right: 10px;
-    width: 12px;
-    height: 12px;
+    width: 13px;
+    height: 13px;
     background: #000;
     border-radius: 50%;
     content: " ";
@@ -136,4 +130,8 @@ a.nav-link:hover {
     -webkit-user-select: none;
     -ms-user-select: none;
     user-select: none;
+ }
+
+ html {
+  overflow: hidden;
  }
