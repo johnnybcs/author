@@ -44,7 +44,6 @@ class About extends React.Component {
                 <br />
                 <div className="ui app">
                         <div className="ui card" style={{width: "400px"}}>
-                            <img className="ui fluid rounded image" src={require("./assets/headShot.jpg")} alt='author' />
                             <div className="content" style={{textAlign: "center"}}>
                             <br />
                                 <div className="header-text">
