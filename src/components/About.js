@@ -67,8 +67,16 @@ class About extends React.Component {
                         </div>
                         <br />
                         <br />
-                        <br />
-                        <br />
+                        <div className="ui card" style={{width: "400px"}}>
+                            <img className="ui fluid rounded image" src={require("./assets/amazon.png")} alt='content' />
+                            <div className="content" style={{textAlign: "center"}}>
+                                <div className="ui large header">Software Development Engineer</div>
+                                <div className="ui header" style={{color: "#696969"}}>Consumer Payments Team</div>
+                                <br />
+                                <br />
+                                <span className="" style={{fontSize: "17px"}}>May 2022 - Present</span>
+                            </div>
+                        </div>
                         <br />
                         <br />
                         <div className="ui card" style={{width: "400px"}}>
@@ -81,26 +89,6 @@ class About extends React.Component {
                                 <span className="" style={{fontSize: "17px"}}>May 2021 - Jan 2022</span>
                             </div>
                         </div>
-                        <div className="ui card" style={{width: "400px"}}>
-                            <img className="ui fluid rounded image" src={require("./assets/amazon.png")} alt='content' />
-                            <div className="content" style={{textAlign: "center"}}>
-                                <div className="ui large header">Software Development Engineer</div>
-                                <div className="ui header" style={{color: "#696969"}}>Consumer Payments Team</div>
-                                <br />
-                                <br />
-                                <span className="" style={{fontSize: "17px"}}>Jan 2021 - Apr 2021</span>
-                            </div>
-                        </div>
-                        <br />
-                        <br />
-                        <br />
-                        <br />
-                        <br />
-                        <br />
-                        <br />
-                        <br />
-                        <br />
-                        <br />
                         <br />
                         <br />
                         <div className="ui card" style={{width: "400px"}}>
@@ -115,10 +103,6 @@ class About extends React.Component {
                         </div>
                         <br />
                         <br />
-                        <br />
-                        <br />
-                        <br />
-                        <br />
                         <div className="ui card" style={{width: "400px"}}>
                             <img className="ui fluid rounded image" src={require("./assets/SAP.png")} alt='content' />
                             <div className="content" style={{textAlign: "center"}}>
@@ -131,10 +115,6 @@ class About extends React.Component {
                         </div>
                         <br />
                         <br />
-                        <br />
-                        <br />
-                        <br />
-                        <br />
                         <div className="ui card" style={{width: "400px"}}>
                             <ImageGallery items={images} showFullscreenButton={false} showThumbnails={false} 
                             showPlayButton={false} showNav={false} autoPlay={true} slideInterval={3000} />
@@ -144,10 +124,6 @@ class About extends React.Component {
                         </div>
                         <br />
                         <br />
-                        <br />
-                        <br />
-                        <br />
-                        <br />
                         <div className="ui card" style={{width: "400px"}}>
                             <div className="aligned content" style={{paddingTop: "150px"}}>
                                 <button onClick={this.onClickCar} style={{border: "none", outline: "none", background: "none"}}>
@@ -155,10 +131,6 @@ class About extends React.Component {
                                 </button>
                             </div>
                         </div>
-                        <br />
-                        <br />
-                        <br />
-                        <br />
                         <br />
                         <br />
                         <div className="ui card" style={{width: "400px"}}>
@@ -193,10 +165,6 @@ class About extends React.Component {
                                 </div>
                             </div>
                         </div>
-                        <br />
-                        <br />
-                        <br />
-                        <br />
                         <br />
                         <br />
                         <div className="ui card" style={{width: "400px"}}>
