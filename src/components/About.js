@@ -82,7 +82,7 @@ class About extends React.Component {
                         <div className="ui card" style={{width: "400px"}}>
                             <img className="ui fluid rounded image" src={require("./assets/bclc.png")} alt='content' />
                             <div className="content" style={{textAlign: "center"}}>
-                                <div className="ui large header">Cyber Security Intern</div>
+                                <div className="ui large header">Cyber Security Co-op</div>
                                 <div className="ui header" style={{color: "#696969"}}>Security Team</div>
                                 <br />
                                 <br />
