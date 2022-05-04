@@ -81,6 +81,22 @@ class About extends React.Component {
                                 <span className="" style={{fontSize: "17px"}}>May 2021 - Jan 2022</span>
                             </div>
                         </div>
+                        <div className="ui card" style={{width: "400px"}}>
+                            <img className="ui fluid rounded image" src={require("./assets/amazon.png")} alt='content' />
+                            <div className="content" style={{textAlign: "center"}}>
+                                <div className="ui large header">Software Development Engineer</div>
+                                <div className="ui header" style={{color: "#696969"}}>Consumer Payments Team</div>
+                                <br />
+                                <br />
+                                <span className="" style={{fontSize: "17px"}}>Jan 2021 - Apr 2021</span>
+                            </div>
+                        </div>
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
                         <br />
                         <br />
                         <br />
@@ -90,7 +106,7 @@ class About extends React.Component {
                         <div className="ui card" style={{width: "400px"}}>
                             <img className="ui fluid rounded image" src={require("./assets/rogers.png")} alt='content' />
                             <div className="content" style={{textAlign: "center"}}>
-                                <div className="ui large header">DevOps Engineer Intern</div>
+                                <div className="ui large header">DevOps Engineer Co-op</div>
                                 <div className="ui header" style={{color: "#696969"}}>HR and Corporate Systems Team</div>
                                 <br />
                                 <br />
@@ -106,7 +122,7 @@ class About extends React.Component {
                         <div className="ui card" style={{width: "400px"}}>
                             <img className="ui fluid rounded image" src={require("./assets/SAP.png")} alt='content' />
                             <div className="content" style={{textAlign: "center"}}>
-                                <div className="ui large header">Software Developer Intern</div>
+                                <div className="ui large header">Software Developer Co-op</div>
                                 <div className="ui header" style={{color: "#696969"}}>SAP Analytics Cloud Infrastructure Team</div>
                                 <br />
                                 <br />
@@ -158,21 +174,6 @@ class About extends React.Component {
                                                 </div>
                                                 <br />
                                                 <br />
-                                                <span className="d" style={{fontSize: "17px"}}>Graduated Jun 2008</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="side">
-                                        <div className="ui fluid card">
-                                            <img className="ui fluid image" src={require("./assets/uofa.jpg")} alt="content" />
-                                            <div className="content" style={{textAlign: "center"}}>
-                                                <div className="ui large header">The University of Alberta</div>
-                                                <div className="ui header" style={{color: "#696969"}}>
-                                                    Doctor of Medicine 
-                                                </div>
-                                                <br />
-                                                <br />
-                                                <span className="d" style={{fontSize: "17px"}}>Completed 3 years</span>
                                             </div>
                                         </div>
                                     </div>
@@ -186,7 +187,6 @@ class About extends React.Component {
                                                 </div>
                                                 <br />
                                                 <br />
-                                                <span className="d" style={{fontSize: "17px"}}>Graduating May 2022</span>
                                             </div>
                                         </div>
                                     </div>
